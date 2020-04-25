@@ -63,3 +63,67 @@ INFO     2020-04-25 13:59:49 us_center_action.py  line:[108:] 您的订单已提
 INFO     2020-04-25 14:00:46 ag_offlinedep_test_case.py line:[78:] 【INFO】执行case【公司入款取消】【test3_offline_cel】
 INFO     2020-04-25 14:01:00 ag_offline_action.py line:[79:] 【INFO】【公司入款取消】:【执行成功】
 INFO     2020-04-25 14:01:02 run.py               line:[29:] 测试结束......
+INFO     2020-04-25 14:57:23 run.py               line:[14:] 开始执行测试......
+INFO     2020-04-25 14:57:23 game_test_case.py    line:[29:] 启动测试脚本文件： game_test_case.py
+INFO     2020-04-25 14:57:29 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-25 14:58:19 game_test_case.py    line:[48:] 开始执行用例： test1_officialgame_01_东京1_5分彩_182
+INFO     2020-04-25 14:58:19 game_test_case.py    line:[49:] 【功能检查】官方游戏下注
+INFO     2020-04-25 14:58:27 us_center_action.py  line:[75:] 【INFO】【东京1.5分彩】进入页面成功
+INFO     2020-04-25 14:58:33 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 14:58:34 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 14:58:38 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 14:58:39 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 14:58:44 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 14:58:45 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 14:58:54 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 14:59:00 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 14:59:19 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 14:59:25 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 14:59:45 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 14:59:51 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 15:00:10 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 15:00:16 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 15:00:35 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 15:00:41 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 15:01:01 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 15:01:07 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 15:01:15 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 15:01:16 game_action.py       line:[36:] 【功能检查】游戏下注成功
+ERROR    2020-04-25 15:01:20 us_center_action.py  line:[111:] 20200425601 期已截止
+20200425602 期即将开售。
+投注时请注意期号！
+INFO     2020-04-25 15:01:22 game_action.py       line:[38:] 【功能检查】游戏下注失败，请检查
+ERROR    2020-04-25 15:01:26 us_center_action.py  line:[111:] 当前未开盘
+INFO     2020-04-25 15:01:27 game_action.py       line:[38:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-25 15:01:31 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 15:01:33 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 15:01:37 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 15:01:38 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 15:01:59 game_test_case.py    line:[48:] 开始执行用例： test1_officialgame_02_LX1分11选5_320
+INFO     2020-04-25 15:01:59 game_test_case.py    line:[49:] 【功能检查】官方游戏下注
+INFO     2020-04-25 15:02:06 us_center_action.py  line:[75:] 【INFO】【LX1分11选5】进入页面成功
+INFO     2020-04-25 15:02:17 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 15:02:23 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 15:02:43 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 15:02:49 game_action.py       line:[36:] 【功能检查】游戏下注成功
+ERROR    2020-04-25 15:02:55 Base_Action.py       line:[73:] Message: unknown error: Element <a href="#" class="btn Random-btn" data-bind="click:doRandom" style="border: 6px solid red;">...</a> is not clickable at point (618, 602). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1030;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-04-25 15:02:55 Base_Action.py       line:[74:] 元素点击失败('xpath', '//a[@class="btn Random-btn"]')
+ERROR    2020-04-25 15:02:56 Base_Action.py       line:[73:] Message: unknown error: Element <a href="#" class="btn deter-btn" data-bind="click:submit" title="确认下注" style="border: 6px solid red;">...</a> is not clickable at point (1449, 705). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1030;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-04-25 15:02:56 Base_Action.py       line:[74:] 元素点击失败('xpath', '//a[@class="btn deter-btn"][@title="确认下注"]')
+ERROR    2020-04-25 15:02:58 us_center_action.py  line:[111:] 202004250903 期已截止
+202004250904 期即将开售。
+投注时请注意期号！
+INFO     2020-04-25 15:03:04 game_action.py       line:[38:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-25 15:03:21 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 15:03:22 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 15:03:34 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 15:03:35 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 15:03:39 us_center_action.py  line:[108:] 投注成功！
+INFO     2020-04-25 15:03:45 game_action.py       line:[36:] 【功能检查】游戏下注成功
+INFO     2020-04-25 15:03:47 run.py               line:[29:] 测试结束......
