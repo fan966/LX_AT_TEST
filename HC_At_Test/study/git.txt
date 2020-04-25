@@ -1,0 +1,36 @@
+1.右键 get base here
+2.找个目录作为仓库  $ git init  此命令初始化仓库，
+3.复制github仓库链接  $ git clone https://github.com/fan966/python_attest.git    此命令把github远程仓库的工程直接克隆下来本地
+
+
+git config --list  查看远程仓库和本地仓库是否建立链接
+没有则敲命令 
+git config --global user.name fan966  设置用户名
+git config --global user.email 664340382@qq.com 设置邮箱
+
+
+1.本地仓库编写完代码后提交到暂缓区
+git add .   命令是把本地所有文件都提交
+git status  可查看文件是否提交
+
+2.暂缓区提交历史提交区
+git commit -m "this is first commit" 
+
+3.历史提交区提交到远程仓库
+git remote -v  先查看是否有建立
+
+git remote add origin https://github.com/fan966/python_attest.git  建立连接
+再次查看就有此连接了
+
+提交到远程仓库
+ git push origin master 此命令提交
+
+
+Putty
+ 
+ 
+
+
+
+ 
+

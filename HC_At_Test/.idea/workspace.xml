@@ -23,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -262,7 +262,8 @@
       <workItem from="1587117595779" duration="16120000" />
       <workItem from="1587150040098" duration="131334000" />
       <workItem from="1587747123616" duration="2295000" />
-      <workItem from="1587793976091" duration="1703000" />
+      <workItem from="1587793976091" duration="3281000" />
+      <workItem from="1587821450703" duration="2044000" />
     </task>
     <servers />
   </component>
@@ -295,7 +296,7 @@
     <SUITE FILE_PATH="coverage/HC_At_Test$bank_card_action.coverage" NAME="bank_card_action Coverage Results" MODIFIED="1587057097821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PO/pageaction" />
     <SUITE FILE_PATH="coverage/HC_At_Test$pytest_for_ag_ondep_test_case_AgOndepTestCase.coverage" NAME="pytest for ag_ondep_test_case.AgOndepTestCase Coverage Results" MODIFIED="1587149559084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/HC_At_Test$Unittests_for_ddt_test_dataTest_test_yaml.coverage" NAME="Unittests for ddt_test.dataTest.test_yaml Coverage Results" MODIFIED="1586670370343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/HC_At_Test$run.coverage" NAME="run Coverage Results" MODIFIED="1587797843024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HC_At_Test$run.coverage" NAME="run Coverage Results" MODIFIED="1587830369098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HC_At_Test$common_util.coverage" NAME="common_util Coverage Results" MODIFIED="1586284784090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PO/common" />
     <SUITE FILE_PATH="coverage/HC_At_Test$Unittests_for_web_topup_test_case_WebTopUpTestCase.coverage" NAME="Unittests for web_topup_test_case.WebTopUpTestCase Coverage Results" MODIFIED="1586870817546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/HC_At_Test$pytest_for_ag_ondep_test_case_WebAgcase.coverage" NAME="pytest for ag_ondep_test_case.WebAgcase Coverage Results" MODIFIED="1587151357034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
