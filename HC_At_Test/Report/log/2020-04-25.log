@@ -34,3 +34,32 @@ INFO     2020-04-25 01:04:41 us_center_action.py  line:[108:] 您的订单已提
 INFO     2020-04-25 01:05:44 ag_offlinedep_test_case.py line:[78:] 【INFO】执行case【公司入款取消】【test3_offline_cel】
 INFO     2020-04-25 01:05:58 ag_offline_action.py line:[79:] 【INFO】【公司入款取消】:【执行成功】
 INFO     2020-04-25 01:06:00 run.py               line:[29:] 测试结束......
+INFO     2020-04-25 13:53:31 run.py               line:[14:] 开始执行测试......
+INFO     2020-04-25 13:53:31 ag_offlinedep_test_case.py line:[23:] 启动测试脚本文件： ag_offlinedep_test_case.py
+INFO     2020-04-25 13:53:36 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-25 13:53:40 ag_offlinedep_test_case.py line:[27:] 【INFO】登录前台环境准备公司入款数据......
+INFO     2020-04-25 13:54:42 top_up_action.py     line:[202:] 【INFO】【QQ钱包转账...】
+INFO     2020-04-25 13:54:45 top_up_action.py     line:[202:] 【INFO】【】
+INFO     2020-04-25 13:54:49 us_center_action.py  line:[108:] 您的订单已提交成功, 此公司没有提供二维码,
+请手动输入收款账号[31231]并转账
+INFO     2020-04-25 13:55:48 ag_offlinedep_test_case.py line:[57:] 【INFO】执行case【公司入款审核】【test1_offline_confirm】
+INFO     2020-04-25 13:56:04 ag_offline_action.py line:[34:] 【INFO】【公司入款审核】:【执行成功】
+INFO     2020-04-25 13:56:06 ag_offlinedep_test_case.py line:[23:] 启动测试脚本文件： ag_offlinedep_test_case.py
+INFO     2020-04-25 13:56:11 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-25 13:56:15 ag_offlinedep_test_case.py line:[27:] 【INFO】登录前台环境准备公司入款数据......
+INFO     2020-04-25 13:57:19 top_up_action.py     line:[202:] 【INFO】【QQ钱包转账...】
+INFO     2020-04-25 13:57:22 top_up_action.py     line:[202:] 【INFO】【】
+INFO     2020-04-25 13:57:26 us_center_action.py  line:[108:] 您的订单已提交成功, 此公司没有提供二维码,
+请手动输入收款账号[31231]并转账
+INFO     2020-04-25 13:58:23 ag_offlinedep_test_case.py line:[68:] 【INFO】执行case【公司入款锁定】【test2_offline_lock】
+INFO     2020-04-25 13:58:30 ag_offline_action.py line:[55:] 【INFO】【公司入款锁定】:【执行成功】
+INFO     2020-04-25 13:58:32 ag_offlinedep_test_case.py line:[23:] 启动测试脚本文件： ag_offlinedep_test_case.py
+INFO     2020-04-25 13:58:37 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-25 13:58:42 ag_offlinedep_test_case.py line:[27:] 【INFO】登录前台环境准备公司入款数据......
+INFO     2020-04-25 13:59:41 top_up_action.py     line:[202:] 【INFO】【QQ钱包转账...】
+INFO     2020-04-25 13:59:44 top_up_action.py     line:[202:] 【INFO】【】
+INFO     2020-04-25 13:59:49 us_center_action.py  line:[108:] 您的订单已提交成功, 此公司没有提供二维码,
+请手动输入收款账号[31231]并转账
+INFO     2020-04-25 14:00:46 ag_offlinedep_test_case.py line:[78:] 【INFO】执行case【公司入款取消】【test3_offline_cel】
+INFO     2020-04-25 14:01:00 ag_offline_action.py line:[79:] 【INFO】【公司入款取消】:【执行成功】
+INFO     2020-04-25 14:01:02 run.py               line:[29:] 测试结束......
