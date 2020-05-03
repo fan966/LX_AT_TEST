@@ -72,6 +72,8 @@ class BaseAction(WebDriver):
             except Exception as e:
                 logging.error(e)
                 logging.info('元素点击失败{}'.format(locator))
+        else:
+            logging.info("值点击失败：{}".format(locator))
         return temp
 
     def send_value(self,locator,value):
@@ -190,7 +192,7 @@ class BaseAction(WebDriver):
         '''
         项目通用滑动页面查找元素方法封装
         '''
-        js = "document.documentElement.scrollTop=1000" # 滑动页面1000像素待执行js语句
+        js = "document.documentElement.scrollTop=200" # 滑动页面1000像素待执行js语句
         while True:
             try:
                 el = self.find_element(locator)

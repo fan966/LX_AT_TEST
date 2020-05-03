@@ -47,7 +47,7 @@ class Gameing(Us_Center_action):
 
     def official_lottery_min(self,data):
         '''
-        官方分分彩
+        官方游戏
         :param data:
         :return:
         '''
@@ -76,13 +76,6 @@ class Gameing(Us_Center_action):
                 logging.info('【功能检查】游戏下注失败，请检查')
         else:
             logging.info('【INFO】游戏玩法没有点击投注选项，请确认')
-
-
-
-
-
-
-
 
 
 

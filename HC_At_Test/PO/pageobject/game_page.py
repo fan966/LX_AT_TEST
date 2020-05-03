@@ -19,6 +19,12 @@ class GamePageLocator:
     # 官方游戏玩法项通用 list
     game_type = (By.XPATH,'//div[@class="mainNav-list"]/a[text()="猜前二"]')
 
+    # 信用游戏玩法项通用 list
+    traditiongame_type = (By.XPATH,'//ul[@data-bind="foreach:navList"]//a[text()="特码"]')
+
+    #影藏的输入框
+    # $x('//ul[@class="clear"]/li[1]/div[3]/div[5]//input[@class="amount"]') 江苏11选5影藏的输入框
+    temp = (By.XPATH,'//ul[@class="clear"]/li[1]/div[3]/div[5]//input[@class="amount"]')
     @staticmethod
     def get_playtype_loc(play_name):
         '''

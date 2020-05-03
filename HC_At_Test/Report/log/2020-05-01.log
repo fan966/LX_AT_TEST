@@ -1,0 +1,787 @@
+INFO     2020-05-01 00:45:22 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 00:46:54 tradigama_test_case.py line:[38:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 00:46:54 tradigama_test_case.py line:[39:] 【功能检查】传统游戏下注
+INFO     2020-05-01 00:48:19 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-05-01 00:50:39 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 00:51:21 tradigama_test_case.py line:[38:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 00:51:21 tradigama_test_case.py line:[39:] 【功能检查】传统游戏下注
+INFO     2020-05-01 00:51:29 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-05-01 00:59:56 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 01:00:41 tradigama_test_case.py line:[38:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 01:00:41 tradigama_test_case.py line:[39:] 【功能检查】传统游戏下注
+INFO     2020-05-01 01:00:49 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-05-01 01:04:16 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 01:05:00 tradigama_test_case.py line:[38:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 01:05:00 tradigama_test_case.py line:[39:] 【功能检查】传统游戏下注
+INFO     2020-05-01 01:05:07 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-05-01 01:17:06 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 01:17:49 tradigama_test_case.py line:[38:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 01:17:49 tradigama_test_case.py line:[39:] 【功能检查】传统游戏下注
+INFO     2020-05-01 01:17:57 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+ERROR    2020-05-01 01:17:58 Base_Action.py       line:[73:] Message: unknown error: Element <a href="javascript:;" title="..." class="fleft ui-short-btn" data-bind="click:$root.fastQuick,css:$root.selectType()?'':'yes'" style="border: 6px solid red;">快捷</a> is not clickable at point (1273, 191). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-01 01:17:58 Base_Action.py       line:[74:] 元素点击失败('xpath', '//a[@title="快捷"][text()="快捷"]')
+INFO     2020-05-01 01:22:20 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 01:23:06 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 01:23:06 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+INFO     2020-05-01 01:23:14 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-05-01 01:26:30 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 01:27:19 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 01:27:19 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+INFO     2020-05-01 01:27:27 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-05-01 01:28:29 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 01:29:14 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 01:29:14 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+INFO     2020-05-01 01:29:22 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-05-01 01:32:22 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 01:33:08 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 01:33:08 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 01:33:12 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 01:33:15 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 01:33:15 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:25 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:33 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:34 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:38 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:42 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:43 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:47 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:51 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:53 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:54 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:33:55 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 01:35:13 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 01:35:58 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 01:35:58 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 01:36:03 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 01:36:06 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 01:36:06 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:36:07 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:36:11 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:36:15 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:36:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:36:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:36:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:36:26 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:36:30 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 01:38:47 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 01:39:32 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 01:39:32 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 01:39:37 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 01:39:40 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 01:39:40 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:39:41 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:39:45 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:39:48 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:39:50 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:39:53 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:39:54 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:39:58 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:01 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:03 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:07 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:11 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:12 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:21 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:25 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:30 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:34 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:38 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:39 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:43 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:47 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:48 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:52 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:56 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:40:57 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:02 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:05 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:07 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:11 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:14 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:25 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:32 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:34 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:38 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:41 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:43 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:47 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:50 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:52 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:56 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:41:59 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:01 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:05 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:08 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:10 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:14 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:28 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:32 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:36 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:37 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:41 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:45 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:46 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:50 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:54 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:55 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:42:59 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:43:03 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:43:05 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:43:09 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:43:12 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:43:14 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:43:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:43:21 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:43:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 01:43:32 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 01:44:16 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 01:44:16 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 01:44:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 01:44:23 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 01:44:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:44:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 01:58:47 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 01:59:41 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 01:59:41 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 01:59:46 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 01:59:49 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 01:59:49 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:59:52 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:59:53 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 01:59:56 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:00:02 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:00:05 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:00:09 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:00:12 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:00:13 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:00:15 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC475A21C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6da69f964016bff55c04f438a7c53df8/url
+WARNING  2020-05-01 02:00:17 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC474DEC08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6da69f964016bff55c04f438a7c53df8/url
+WARNING  2020-05-01 02:00:19 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC474DEBC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6da69f964016bff55c04f438a7c53df8/url
+INFO     2020-05-01 02:00:29 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 02:01:13 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 02:01:13 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:01:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:01:21 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:01:21 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:01:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:01:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:01:28 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:01:30 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B47C1D1048>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6a63e70fff054c3c5f051b2e4f6720bc/url
+WARNING  2020-05-01 02:01:32 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B47C108B48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6a63e70fff054c3c5f051b2e4f6720bc/url
+WARNING  2020-05-01 02:01:34 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B47C1D1C48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/6a63e70fff054c3c5f051b2e4f6720bc/url
+INFO     2020-05-01 02:04:20 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 02:05:10 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 02:05:10 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:05:15 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:05:18 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:05:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:05:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:05:21 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:05:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:05:25 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:05:26 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:05:27 tradi_game_action.py line:[84:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:05:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:05:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:05:31 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002453BBE1F88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/feeb894119a54748d3a37a5f1bb1f613/url
+WARNING  2020-05-01 02:05:33 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002453BB1FB48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/feeb894119a54748d3a37a5f1bb1f613/url
+WARNING  2020-05-01 02:05:35 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002453BBE9E08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/feeb894119a54748d3a37a5f1bb1f613/url
+INFO     2020-05-01 02:07:49 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 02:08:33 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 02:08:33 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:08:37 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:08:40 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:08:40 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:08:42 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:08:43 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:08:46 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:08:47 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:08:48 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:08:49 tradi_game_action.py line:[87:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:08:49 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:08:52 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:08:53 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:08:56 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:08:59 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:09:03 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:09:06 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:09:11 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:09:14 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:09:15 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:09:17 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D8E0F125C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/506f8c291ff03b5266fedfd0dfc9eb87/url
+WARNING  2020-05-01 02:09:19 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D8E0F1DF48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/506f8c291ff03b5266fedfd0dfc9eb87/url
+WARNING  2020-05-01 02:09:21 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D8E0E60D48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/506f8c291ff03b5266fedfd0dfc9eb87/url
+INFO     2020-05-01 02:10:08 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 02:10:54 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 02:10:54 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:10:58 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:11:01 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:11:01 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:03 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:03 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:06 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:07 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:08 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:11:09 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:11:10 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:12 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:13 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:17 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:11:19 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:11:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:21 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:22 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:25 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:26 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:11:28 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:11:28 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:11:31 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002016D3DB548>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a459f435e47c67a88f77dabdf96297e9/url
+WARNING  2020-05-01 02:11:33 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002016D30AEC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a459f435e47c67a88f77dabdf96297e9/url
+WARNING  2020-05-01 02:11:35 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002016D3D29C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a459f435e47c67a88f77dabdf96297e9/url
+INFO     2020-05-01 02:13:41 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 02:14:27 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 02:14:27 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:14:31 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:14:34 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:14:34 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:14:36 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:14:37 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:14:40 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:14:41 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:14:42 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:14:43 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:14:43 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:14:46 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:14:46 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:14:49 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:14:50 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:14:51 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:14:52 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:14:52 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:14:53 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00002_1分PK拾_189
+INFO     2020-05-01 02:14:53 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:14:53 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:14:56 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:14:59 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:14:59 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:01 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:03 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:04 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:07 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:08 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:09 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:15:10 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:15:10 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:12 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:13 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:17 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:15:19 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:15:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:15:20 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00003_1分PK拾_189
+INFO     2020-05-01 02:15:20 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:15:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:15:26 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:15:26 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:28 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:32 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:33 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:34 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:15:35 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:15:35 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:39 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:39 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:42 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:43 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:44 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:15:45 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:15:45 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:48 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:48 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:51 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:52 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:54 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:15:55 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:15:56 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00004_1分PK拾_189
+INFO     2020-05-01 02:15:56 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:15:58 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:16:01 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:16:01 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:04 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:04 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:07 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:08 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:09 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:16:10 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:16:10 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:14 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:15 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:16:21 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:16:21 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:28 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:16:30 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:16:30 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:31 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:31 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:31 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:31 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:33 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018DE8342188>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c3f5740a0937e42dc772e44fc0d9fe2/url
+WARNING  2020-05-01 02:16:33 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018DE8391C08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c3f5740a0937e42dc772e44fc0d9fe2/url
+WARNING  2020-05-01 02:16:33 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018DE833DF08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c3f5740a0937e42dc772e44fc0d9fe2/url
+WARNING  2020-05-01 02:16:35 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018DE83481C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c3f5740a0937e42dc772e44fc0d9fe2/url
+WARNING  2020-05-01 02:16:35 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018DE8392B08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c3f5740a0937e42dc772e44fc0d9fe2/url
+WARNING  2020-05-01 02:16:35 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018DE83924C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c3f5740a0937e42dc772e44fc0d9fe2/url
+WARNING  2020-05-01 02:16:37 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018DE8276D08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c3f5740a0937e42dc772e44fc0d9fe2/url
+WARNING  2020-05-01 02:16:37 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018DE837BC88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c3f5740a0937e42dc772e44fc0d9fe2/url
+WARNING  2020-05-01 02:16:37 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018DE839D308>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3c3f5740a0937e42dc772e44fc0d9fe2/url
+WARNING  2020-05-01 02:16:39 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:16:39 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:26:10 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 02:26:56 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 02:26:56 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:26:59 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:27:02 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:27:02 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:04 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:05 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:08 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:09 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:10 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:27:11 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:27:11 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:14 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:15 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:27:21 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:27:21 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:26 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:28 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:27:29 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:27:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:27:30 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00002_1分PK拾_189
+INFO     2020-05-01 02:27:30 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:27:33 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:27:36 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:27:36 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:38 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:39 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:42 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:43 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:44 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:27:45 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:27:45 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:48 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:49 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:52 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:53 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+ERROR    2020-05-01 02:27:54 Base_Action.py       line:[73:] Message: unknown error: Element <button type="button" i-id="ok" autofocus="" class="ui-dialog-autofocus" style="border: 6px solid red;">...</button> is not clickable at point (922, 548). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1029;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-01 02:27:54 Base_Action.py       line:[74:] 元素点击失败('xpath', '//button[@i-id="ok"][text()="确认下注"]')
+WARNING  2020-05-01 02:27:54 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:27:55 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00003_1分PK拾_189
+INFO     2020-05-01 02:27:55 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:27:55 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:27:58 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:28:01 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:28:01 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:03 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:04 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:07 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:08 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:09 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:28:10 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:28:10 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:13 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:14 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:17 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:28:20 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:28:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:26 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:28 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:28:29 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:28:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:28:30 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00004_1分PK拾_189
+INFO     2020-05-01 02:28:30 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:28:34 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:28:37 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:28:37 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:39 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:40 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:43 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:44 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:45 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:28:46 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:28:46 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:50 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:51 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:54 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:28:57 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:00 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:04 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:07 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:12 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:15 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:29:16 Base_Action.py       line:[55:] 元素查找失败：('xpath', '//ul[contains(@class ,"flip")]'):Message: no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+WARNING  2020-05-01 02:29:18 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF03932988>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:18 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF0389E508>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:18 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF03921AC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:18 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF039216C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:20 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF03856C08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:20 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF03921288>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:20 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF03973708>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:20 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF03973508>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:22 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF03973808>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:22 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF0397DEC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:22 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF0397DFC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:22 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CF03982048>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3f7923967cf0bb0dbfb6e5b196a60e81/url
+WARNING  2020-05-01 02:29:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:29:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:34:21 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 02:35:07 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 02:35:07 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:35:12 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:35:15 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:35:15 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:17 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:17 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:21 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:22 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:35:23 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:35:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:26 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:30 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:31 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:32 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:35:33 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:35:33 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:35 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:35 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:38 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:40 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:41 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:35:42 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:35:42 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:35:43 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00002_1分PK拾_189
+INFO     2020-05-01 02:35:43 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:35:45 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:35:48 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:35:48 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:50 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:51 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:54 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:35:57 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:00 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:04 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:07 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:12 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:25 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:36:26 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:36:26 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:28 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:32 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:33 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:34 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:36:35 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:36:35 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:36:36 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00003_1分PK拾_189
+INFO     2020-05-01 02:36:36 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:36:39 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:36:42 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:36:42 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:45 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:45 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:48 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:49 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:36:50 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:36:51 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:36:52 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:36:55 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00004_1分PK拾_189
+INFO     2020-05-01 02:36:55 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:36:58 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:37:01 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:37:01 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:03 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:04 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:07 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:08 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:09 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:37:10 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:37:10 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:14 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:15 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:37:21 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:37:21 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:28 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:37:30 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:37:30 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:31 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:31 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:31 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:31 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:37:33 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017B2F9CC848>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3bb44e431c5b2e9a6aa5f6a60330038c/url
+WARNING  2020-05-01 02:37:35 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017B2F934F88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3bb44e431c5b2e9a6aa5f6a60330038c/url
+WARNING  2020-05-01 02:37:37 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017B2F8F9508>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/3bb44e431c5b2e9a6aa5f6a60330038c/url
+INFO     2020-05-01 02:38:09 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 02:38:52 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 02:38:52 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:38:56 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:38:59 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:38:59 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:01 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:01 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:04 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:05 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:06 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:39:08 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:39:08 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:10 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:11 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:14 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:15 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:39:17 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:39:17 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:25 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:39:26 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:39:26 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:39:27 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00002_1分PK拾_189
+INFO     2020-05-01 02:39:27 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:39:32 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:39:35 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:39:35 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:37 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:38 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:41 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:42 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:43 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:39:44 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:39:44 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:47 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:48 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:51 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:52 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:53 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:39:54 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:39:55 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00003_1分PK拾_189
+INFO     2020-05-01 02:39:55 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:40:00 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:40:03 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:40:03 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:40:06 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:40:06 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:40:09 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:40:10 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:40:11 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:40:13 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:40:13 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:40:16 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:40:17 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:40:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:40:21 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:40:22 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:40:23 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:40:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:40:38 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 02:41:22 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 02:41:22 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:41:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:41:30 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:41:30 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:32 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:32 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:35 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:36 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:37 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:41:38 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:41:38 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:41 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:42 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:45 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:46 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:47 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:41:48 tradi_game_action.py line:[89:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:41:48 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:50 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:50 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:41:53 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:42:30 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 02:43:15 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-05-01 02:43:15 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:43:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:43:22 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:43:22 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:24 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:28 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:29 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:43:30 tradi_game_action.py line:[85:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:43:30 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:33 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:33 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:37 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:38 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:39 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:43:40 tradi_game_action.py line:[85:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:43:40 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:41 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:42 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:45 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:46 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:47 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:43:48 tradi_game_action.py line:[85:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:43:48 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:43:49 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00002_1分PK拾_189
+INFO     2020-05-01 02:43:49 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:43:52 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:43:55 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:43:55 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+ERROR    2020-05-01 02:43:56 Base_Action.py       line:[73:] Message: unknown error: Element <a href="javascript:;" title="..." class="fleft ui-short-btn" data-bind="click:$root.fastQuick,css:$root.selectType()?'':'yes'" style="border: 6px solid red;">快捷</a> is not clickable at point (1273, 146). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-01 02:43:56 Base_Action.py       line:[74:] 元素点击失败('xpath', '//a[@title="快捷"][text()="快捷"]')
+INFO     2020-05-01 02:43:56 tradigama_test_case.py line:[39:] 开始执行用例： test1_traditiongame_00003_1分PK拾_189
+INFO     2020-05-01 02:43:56 tradigama_test_case.py line:[40:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 02:43:56 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:43:58 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:44:01 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+WARNING  2020-05-01 02:44:01 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:03 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:04 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:07 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:08 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:09 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:44:10 tradi_game_action.py line:[85:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:44:10 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:13 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:14 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:17 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:18 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 02:44:20 tradi_game_action.py line:[85:] 【功能检查】信用游戏下注成功
+WARNING  2020-05-01 02:44:20 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:22 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 02:44:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 21:25:25 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 21:26:17 tradigama_test_case.py line:[55:] 开始执行用例： test2_excel_traditiongame_1
+INFO     2020-05-01 21:26:17 tradigama_test_case.py line:[56:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 21:26:17 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 21:26:23 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 21:26:26 tradi_game_action.py line:[80:] 【INFO】【东京1.5分彩】进入页面成功
+WARNING  2020-05-01 21:26:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 21:26:29 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000202F0A50A08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/dd15e2a5659e6226515d0909b0865427/url
+WARNING  2020-05-01 21:26:31 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000202F09D29C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/dd15e2a5659e6226515d0909b0865427/url
+WARNING  2020-05-01 21:26:33 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000202F09DD208>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/dd15e2a5659e6226515d0909b0865427/url
+INFO     2020-05-01 21:28:16 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 21:29:10 tradigama_test_case.py line:[55:] 开始执行用例： test2_excel_traditiongame_1
+INFO     2020-05-01 21:29:10 tradigama_test_case.py line:[56:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 21:29:10 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 21:29:14 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 21:29:17 tradi_game_action.py line:[80:] 【INFO】【东京1.5分彩】进入页面成功
+WARNING  2020-05-01 21:29:17 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 21:29:19 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 21:29:21 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A9CA110AC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/51f77c17490e411bcba56e5dad08fe1e/url
+WARNING  2020-05-01 21:29:23 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A9C9F43988>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/51f77c17490e411bcba56e5dad08fe1e/url
+WARNING  2020-05-01 21:29:25 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A9C9F43B08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/51f77c17490e411bcba56e5dad08fe1e/url
+INFO     2020-05-01 23:52:37 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-01 23:53:27 tradigama_test_case.py line:[55:] 开始执行用例： test2_excel_traditiongame_1
+INFO     2020-05-01 23:53:27 tradigama_test_case.py line:[56:] 【功能检查】传统游戏下注
+WARNING  2020-05-01 23:53:27 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 23:53:31 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 23:53:34 tradi_game_action.py line:[80:] 【INFO】【东京1.5分彩】进入页面成功
+WARNING  2020-05-01 23:53:34 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 23:53:36 Base_Action.py       line:[91:] 26:值输入失败：<selenium.webdriver.remote.webelement.WebElement (session="e00108f457963899c36a3acbc39173e4", element="0.4663338911266033-9")>
+INFO     2020-05-01 23:53:36 Base_Action.py       line:[91:] 26:值输入失败：<selenium.webdriver.remote.webelement.WebElement (session="e00108f457963899c36a3acbc39173e4", element="0.4663338911266033-10")>
+WARNING  2020-05-01 23:53:36 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 23:53:39 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 23:53:42 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 23:53:46 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 23:53:49 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+WARNING  2020-05-01 23:53:52 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+ERROR    2020-05-01 23:53:53 Base_Action.py       line:[73:] Message: unknown error: Element <button type="button" i-id="ok" autofocus="" class="ui-dialog-autofocus" style="border: 6px solid red;">...</button> is not clickable at point (951, 527). Other element would receive the click: <td i="body" class="ui-dialog-body" style="padding: 30px;">...</td>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-01 23:53:53 Base_Action.py       line:[74:] 元素点击失败('xpath', '//button[@i-id="ok"][text()="确定"]')
+WARNING  2020-05-01 23:53:53 connectionpool.py    line:[274:] Connection pool is full, discarding connection: 127.0.0.1
+INFO     2020-05-01 23:53:53 Base_Action.py       line:[55:] 元素查找失败：('xpath', '//ul[contains(@class ,"flip")]'):Message: no such session
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+WARNING  2020-05-01 23:53:55 connectionpool.py    line:[662:] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E7771202C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/e00108f457963899c36a3acbc39173e4/url
+WARNING  2020-05-01 23:53:57 connectionpool.py    line:[662:] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E776F49B88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/e00108f457963899c36a3acbc39173e4/url
+WARNING  2020-05-01 23:53:59 connectionpool.py    line:[662:] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E77712CF88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/e00108f457963899c36a3acbc39173e4/url

@@ -15,7 +15,6 @@ class GameTestCase(unittest.TestCase):
     # 配置项循环数/num
     num = config_ini('game.ini', 'game', 'number')
     offical_path = get_project_path() + '\\Data\\game\\officialgame.yaml'
-    tradition_path = get_project_path() + '\\Data\\game\\traditiongame.yaml'
     browesr_name = config_ini('config.ini', 'default', 'browesr_name')
     env_type = config_ini('config.ini', 'default', 'env_type')
     skin = config_ini('config.ini', 'default', 'skin')
@@ -44,25 +43,27 @@ class GameTestCase(unittest.TestCase):
         :param data:
         :return:
         '''
-        for i in range(int(self.num)):
-            logging.info('开始执行用例： {}'.format(self._testMethodName))
-            logging.info("【功能检查】官方游戏下注")
-            Us_Center_action(self.driver).to_officialgame_page(data)
 
-            Gameing(self.driver).official_gameing()
-
-
-    @file_data(tradition_path)
-    @unittest.skipIf(excel_test_case(1, 'test2_traditiongame'), 'test2_traditiongame case is skip')
-    def test2_traditiongame(self,data):
-        '''
-        传统随机/配置游戏文件
-        :param data:
-        :return:
-        '''
         logging.info('开始执行用例： {}'.format(self._testMethodName))
-        logging.info("【功能检查】传统游戏下注")
-        Us_Center_action(self.driver).to_traditiongame_page(data)
+        logging.info("【功能检查】官方游戏下注")
+        Us_Center_action(self.driver).to_officialgame_page(data)
+
+        Gameing(self.driver).official_gameing()
+
+
+    # @file_data(tradition_path)
+    # @unittest.skipIf(excel_test_case(1, 'test2_traditiongame'), 'test2_traditiongame case is skip')
+    # def test2_traditiongame(self,data):
+    #     '''
+    #     传统随机/配置游戏文件
+    #     :param data:
+    #     :return:
+    #     '''
+    #     logging.info('开始执行用例： {}'.format(self._testMethodName))
+    #     logging.info("【功能检查】传统游戏下注")
+    #     Us_Center_action(self.driver).to_traditiongame_page(data)
+
+
     @data(*datas)
     @unittest.skipIf(excel_test_case(1, 'test3_game_playtype'), 'test3_game_playtype case is skip')
     def test3_game_playtype(self,datas):
@@ -70,10 +71,12 @@ class GameTestCase(unittest.TestCase):
         配置项玩法投注
         :return:
         '''
-        for i in range(int(self.num)):
-            logging.info('开始执行用例： {}'.format(self._testMethodName))
-            logging.info("【功能检查】玩法配置项投注")
-            Gameing(self.driver).official_excel_gamging(datas)
+
+        logging.info('开始执行用例： {}'.format(self._testMethodName))
+        logging.info("【功能检查】玩法配置项投注")
+        Gameing(self.driver).official_excel_gamging(datas)
+
+
 
 
 

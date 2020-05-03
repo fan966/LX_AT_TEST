@@ -55,12 +55,18 @@ class Login(BaseAction):
     def close_dialog(self):
         if self.check_element_displayed(UserCenterPage.user_actvi):
             self.click_element(UserCenterPage.usercenter_actviboard)
+        else:
+            pass
 
         if self.check_element_displayed(UserCenterPage.user_ptgg):
             self.click_element(UserCenterPage.usercenter_board)
+        else:
+            pass
 
         if self.check_element_displayed(UserCenterPage.user_actvi):
             self.click_element(UserCenterPage.usercenter_actviboard)
+        else:
+            pass
 
 
 

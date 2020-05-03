@@ -1,0 +1,12 @@
+INFO     2020-04-26 20:52:38 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-26 20:53:24 tradigama_test_case.py line:[36:] 开始执行用例： test1_traditiongame_00001_江苏11选5_75
+INFO     2020-04-26 20:53:24 tradigama_test_case.py line:[37:] 【功能检查】传统游戏下注
+INFO     2020-04-26 20:53:31 us_center_action.py  line:[91:] 【INFO】【江苏11选5】进入页面成功
+INFO     2020-04-26 21:01:20 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-26 21:02:04 tradigama_test_case.py line:[37:] 开始执行用例： test1_traditiongame_00001_江苏11选5_75
+INFO     2020-04-26 21:02:04 tradigama_test_case.py line:[38:] 【功能检查】传统游戏下注
+INFO     2020-04-26 21:02:11 us_center_action.py  line:[91:] 【INFO】【江苏11选5】进入页面成功
+INFO     2020-04-26 21:02:50 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-26 21:03:35 tradigama_test_case.py line:[37:] 开始执行用例： test1_traditiongame_00001_江苏11选5_75
+INFO     2020-04-26 21:03:35 tradigama_test_case.py line:[38:] 【功能检查】传统游戏下注
+INFO     2020-04-26 21:03:41 us_center_action.py  line:[91:] 【INFO】【江苏11选5】进入页面成功

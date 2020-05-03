@@ -1,0 +1,18 @@
+INFO     2020-04-30 01:27:08 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-30 01:27:51 tradigama_test_case.py line:[38:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-04-30 01:27:51 tradigama_test_case.py line:[39:] 【功能检查】传统游戏下注
+INFO     2020-04-30 01:27:59 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-04-30 01:28:29 tradigama_test_case.py line:[38:] 开始执行用例： test1_traditiongame_00002_东京1_5分彩_87
+INFO     2020-04-30 01:28:29 tradigama_test_case.py line:[39:] 【功能检查】传统游戏下注
+INFO     2020-04-30 01:28:34 us_center_action.py  line:[91:] 【INFO】【东京1.5分彩】进入页面成功
+INFO     2020-04-30 01:29:04 tradigama_test_case.py line:[38:] 开始执行用例： test1_traditiongame_00003_幸运时时彩_613
+INFO     2020-04-30 01:29:04 tradigama_test_case.py line:[39:] 【功能检查】传统游戏下注
+INFO     2020-04-30 01:29:10 us_center_action.py  line:[91:] 【INFO】【幸运时时彩】进入页面成功
+INFO     2020-04-30 01:36:05 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-30 01:36:57 tradigama_test_case.py line:[38:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-04-30 01:36:57 tradigama_test_case.py line:[39:] 【功能检查】传统游戏下注
+INFO     2020-04-30 01:37:05 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-04-30 01:43:30 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-30 01:44:16 tradigama_test_case.py line:[38:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-04-30 01:44:16 tradigama_test_case.py line:[39:] 【功能检查】传统游戏下注
+INFO     2020-04-30 01:44:24 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功

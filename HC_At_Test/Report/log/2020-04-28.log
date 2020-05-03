@@ -1,0 +1,210 @@
+INFO     2020-04-28 00:39:08 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-28 00:39:53 tradigama_test_case.py line:[37:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-04-28 00:39:53 tradigama_test_case.py line:[38:] 【功能检查】传统游戏下注
+INFO     2020-04-28 00:40:01 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-04-28 00:40:09 tradi_game_action.py line:[76:] 下注成功
+INFO     2020-04-28 00:40:10 tradi_game_action.py line:[39:] 【功能检查】游戏下注成功
+ERROR    2020-04-28 00:40:11 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (572, 907). Other element would receive the click: <div style="width: 100%; height: 100%; position: relative; overflow: hidden;">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 00:40:11 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (752, 907). Other element would receive the click: <div style="width: 100%; height: 100%; position: relative; overflow: hidden;">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 00:40:12 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1292, 907). Other element would receive the click: <p>...</p>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-04-28 00:41:27 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-28 00:42:09 tradigama_test_case.py line:[37:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-04-28 00:42:09 tradigama_test_case.py line:[38:] 【功能检查】传统游戏下注
+INFO     2020-04-28 00:42:17 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-04-28 00:42:35 tradi_game_action.py line:[43:] 【功能检查】游戏下注失败，请检查
+ERROR    2020-04-28 00:42:36 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (572, 907). Other element would receive the click: <div style="width: 100%; height: 100%; position: relative; overflow: hidden;">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 00:42:36 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (752, 907). Other element would receive the click: <div style="width: 100%; height: 100%; position: relative; overflow: hidden;">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 00:42:37 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1292, 907). Other element would receive the click: <div style="position: absolute; left: 266.49px; top: 0px; white-space: nowrap;">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-04-28 00:42:53 tradi_game_action.py line:[81:] 202004280043 期已截止
+202004280044 期即将开售。
+投注时请注意期号！
+INFO     2020-04-28 00:42:54 tradi_game_action.py line:[43:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 00:52:55 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-28 00:53:38 tradigama_test_case.py line:[37:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-04-28 00:53:38 tradigama_test_case.py line:[38:] 【功能检查】传统游戏下注
+INFO     2020-04-28 00:53:45 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+ERROR    2020-04-28 00:54:10 tradi_game_action.py line:[87:] 'NoneType' object has no attribute 'text'
+INFO     2020-04-28 00:54:10 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+ERROR    2020-04-28 00:54:11 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (572, 907). Other element would receive the click: <p>...</p>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 00:54:11 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (752, 907). Other element would receive the click: <span>...</span>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 00:54:11 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1292, 907). Other element would receive the click: <span>...</span>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-04-28 00:54:28 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 00:54:46 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 00:55:03 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 00:56:20 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-28 00:57:05 tradigama_test_case.py line:[37:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-04-28 00:57:05 tradigama_test_case.py line:[38:] 【功能检查】传统游戏下注
+INFO     2020-04-28 00:57:15 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+INFO     2020-04-28 00:57:34 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+ERROR    2020-04-28 00:57:35 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (572, 907). Other element would receive the click: <div style="width: 100%; height: 100%; position: relative; overflow: hidden;">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 00:57:35 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (752, 907). Other element would receive the click: <span>...</span>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 00:57:35 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1292, 907). Other element would receive the click: <div style="position: absolute; left: 187.62px; top: 0px; white-space: nowrap;">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-04-28 00:57:52 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 00:58:10 tradigama_test_case.py line:[37:] 开始执行用例： test1_traditiongame_00002_东京1_5分彩_87
+INFO     2020-04-28 00:58:10 tradigama_test_case.py line:[38:] 【功能检查】传统游戏下注
+INFO     2020-04-28 00:58:16 us_center_action.py  line:[91:] 【INFO】【东京1.5分彩】进入页面成功
+INFO     2020-04-28 00:58:47 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 00:59:05 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 00:59:22 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 00:59:39 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 00:59:56 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 01:00:13 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 01:00:20 Base_Action.py       line:[55:] 元素查找失败：('xpath', '//div[contains(@data-bind,"foreach:{data:item.list")]/div[contains(@class,"bd clear")]'):Message: 
+
+INFO     2020-04-28 01:00:37 tradi_game_action.py line:[46:] 【功能检查】游戏下注失败，请检查
+INFO     2020-04-28 01:06:01 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-04-28 01:06:52 tradigama_test_case.py line:[37:] 开始执行用例： test1_traditiongame_00001_1分PK拾_189
+INFO     2020-04-28 01:06:52 tradigama_test_case.py line:[38:] 【功能检查】传统游戏下注
+INFO     2020-04-28 01:07:01 us_center_action.py  line:[91:] 【INFO】【1分PK拾】进入页面成功
+ERROR    2020-04-28 01:07:20 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (572, 907). Other element would receive the click: <div style="width: 100%; height: 100%; position: relative; overflow: hidden;">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:07:20 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (752, 907). Other element would receive the click: <p>...</p>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:07:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1292, 907). Other element would receive the click: <div style="position: absolute; left: 250.92px; top: 0px; white-space: nowrap;">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-04-28 01:07:53 tradi_game_action.py line:[82:] 202004280068 期已截止
+202004280069 期即将开售。
+投注时请注意期号！
+INFO     2020-04-28 01:07:56 tradigama_test_case.py line:[37:] 开始执行用例： test1_traditiongame_00002_东京1_5分彩_87
+INFO     2020-04-28 01:07:56 tradigama_test_case.py line:[38:] 【功能检查】传统游戏下注
+INFO     2020-04-28 01:08:02 us_center_action.py  line:[91:] 【INFO】【东京1.5分彩】进入页面成功
+INFO     2020-04-28 01:08:51 tradi_game_action.py line:[82:] 20200428086 期已截止
+20200428087 期即将开售。
+投注时请注意期号！
+ERROR    2020-04-28 01:09:32 tradi_game_action.py line:[85:] 'NoneType' object has no attribute 'text'
+INFO     2020-04-28 01:09:57 Base_Action.py       line:[55:] 元素查找失败：('xpath', '//div[contains(@data-bind,"foreach:{data:item.list")]/div[contains(@class,"bd clear")]'):Message: 
+
+INFO     2020-04-28 01:10:14 tradigama_test_case.py line:[37:] 开始执行用例： test1_traditiongame_00003_幸运时时彩_613
+INFO     2020-04-28 01:10:14 tradigama_test_case.py line:[38:] 【功能检查】传统游戏下注
+INFO     2020-04-28 01:10:19 us_center_action.py  line:[91:] 【INFO】【幸运时时彩】进入页面成功
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (707, 557). Other element would receive the click: <div tabindex="0" style="opacity: 0.0544852; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (707, 668). Other element would receive the click: <div tabindex="0" style="opacity: 0.291631; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (707, 779). Other element would receive the click: <div tabindex="0" style="opacity: 0.379287; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (857, 372). Other element would receive the click: <div tabindex="-1" aria-labelledby="title:DIALOG-TIP" aria-describedby="content:DIALOG-TIP" class="ui-popup ui-popup-modal ui-popup-show ui-popup-focus" role="alertdialog" style="position: absolute; outline: 0px; left: 831px; top: 268px; z-index: 1024;">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (857, 483). Other element would receive the click: <div tabindex="-1" aria-labelledby="title:DIALOG-TIP" aria-describedby="content:DIALOG-TIP" class="ui-popup ui-popup-modal ui-popup-show ui-popup-focus" role="alertdialog" style="position: absolute; outline: 0px; left: 831px; top: 268px; z-index: 1024;">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (857, 594). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (857, 705). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1007, 298). Other element would receive the click: <div i="title" class="ui-dialog-title" id="title:DIALOG-TIP">...</div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1007, 409). Other element would receive the click: <td i="body" class="ui-dialog-body" style="padding: 30px;">...</td>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1007, 520). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1007, 631). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1007, 742). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1157, 335). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1157, 446). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1157, 557). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1157, 668). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1157, 779). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1307, 372). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1307, 483). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1307, 594). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+ERROR    2020-04-28 01:10:21 tradi_game_action.py line:[31:] Message: unknown error: Element <div class="bd clear" data-bind="click:$root.getFastItem">...</div> is not clickable at point (1307, 705). Other element would receive the click: <div tabindex="0" style="opacity: 0.7; background: rgb(0, 0, 0); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; user-select: none; z-index: 1024;" class="ui-popup-backdrop"></div>
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-04-28 01:11:50 tradi_game_action.py line:[82:] 20200204955 期已截止
+20200204956 期即将开售。
+投注时请注意期号！
+INFO     2020-04-28 01:12:16 Base_Action.py       line:[55:] 元素查找失败：('xpath', '//div[contains(@data-bind,"foreach:{data:item.list")]/div[contains(@class,"bd clear")]'):Message: 
+

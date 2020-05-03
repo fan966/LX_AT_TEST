@@ -69,11 +69,21 @@ class UserCenterPage:
 
     @staticmethod
     def get_officialgame_url(id):
+        '''
+        根据官方游戏id获取url
+        :param id:
+        :return:
+        '''
         url = ('http://csdqthcweb.lx901.com/OffcialOtherGame/Index/{}'.format(id))
         return url
 
     @staticmethod
     def get_traditiongame_url(id):
+        '''
+        根据信用游戏id获取url
+        :param id:
+        :return:
+        '''
         url = ('http://csdqthcweb.lx901.com/OtherGame/Index/{}'.format(id))
         return url
 
