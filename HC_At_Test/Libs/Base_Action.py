@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from PO.pageobject.log_page import Loglocator
 from Libs.webdriver import WebDriver
 from selenium.webdriver.common.by import By
+from pykeyboard import PyKeyboard
 from selenium import webdriver
 from PO.pageobject.usercenter_page import UserCenterPage
 #from pykeyboard import PyKeyboard  待查看使用方法
@@ -150,31 +151,36 @@ class BaseAction(WebDriver):
             logging.info('下拉框选择失败{}'.format(locator))
 
     def title_in(self,title_name):
+        '''
+        字符串是否在当前title
+        :param title_name:
+        :return:
+        '''
         temp = False
         if title_name in self.driver.title:
             temp = True
         return temp
 
 
-    # def upload_file(self, file_path):
-    #     '''
-    #     上传文件方法封装
-    #     传入文件路径
-    #     :return:
-    #     '''
-    #     pykey = PyKeyboard()
-    #     pykey.tap_key(pykey.shift_key)  # 切换英文输入法
-    #     pykey.type_string(file_path)  # 输入文件路径
-    #     time.sleep(3)
-    #     pykey.tap_key(pykey.enter_key)  # 点击Enter键上传文件
-    #
-    # def download_file(self):
-    #     '''
-    #     下载文件
-    #     :return:
-    #     '''
-    #     pykey = PyKeyboard()
-    #     pykey.tap_key(pykey.enter_key)  # 点击Enter键确定下载文件
+    def upload_file(self, file_path):
+        '''
+        上传文件方法封装
+        传入文件路径
+        :return:
+        '''
+        pykey = PyKeyboard()
+        pykey.tap_key(pykey.shift_key)  # 切换英文输入法
+        pykey.type_string(file_path)  # 输入文件路径
+        time.sleep(2)
+        pykey.tap_key(pykey.enter_key)  # 点击Enter键上传文件
+
+    def download_file(self):
+        '''
+        下载文件
+        :return:
+        '''
+        pykey = PyKeyboard()
+        pykey.tap_key(pykey.enter_key)  # 点击Enter键确定下载文件
 
     def switch_window(self,title_name):
         '''切换浏览器窗口'''
@@ -261,10 +267,11 @@ class BaseAction(WebDriver):
         '''
         element = self.find_element(locator)
         if element.is_selected() == True: # 判断复选框元素是否被选中（返回True或者False）
-            if check != 'check':
+            if check != 'on':
                 self.click_element(locator)
+
         else:
-            if check == 'check':
+            if check == 'on':
                 self.click_element(locator)
 
     def page_contains(self, text):
@@ -302,6 +309,30 @@ class BaseAction(WebDriver):
                    element[i].readOnly = false;
                    }
                '''
+        self.driver.execute_script(js)
+
+    def get_js_readonly(self, by, value, number=None):
+        '''
+        获取元素by，value判断哪种使用哪种方法remove_readonly
+        :return:
+        '''
+        js = None
+        if by == 'id':
+            by_key = 'getElementById'
+            js = "document.%s('%s').removeAttribute('readonly')" % (by_key, value)
+        elif by == 'class':
+            by_key = 'getElementsByClassName'
+            js = "document.%s('%s')[%d].removeAttribute('readonly')" % (by_key, value, number)
+        else:
+            print('%s，%s：传递值有误，去除readonly属性失败')
+        return js
+
+    def remove_readonly(self, by, value, number=None):
+        '''
+        去掉input标签read_only属性
+        '''
+
+        js = self.get_js_readonly(by, value, number)
         self.driver.execute_script(js)
 
     def get_table_content(self,locator,x,y):

@@ -21,7 +21,7 @@ class AgHome(BaseAction):
 
     def swith_mod(self,first,second):
         '''
-        切换一级菜单---二级菜单
+        切换左边树状一级菜单---二级菜单
         :return:
         '''
         try:
@@ -84,8 +84,34 @@ class AgHome(BaseAction):
         if self.check_element_displayed(AgHomeLocator.mag_panel):
             self.click_element(AgHomeLocator.mag_panel_btn)
             self.click_element(AgHomeLocator.financia_pop_btn)
+    def utli_pop_tc(self,str1):
+        '''
+        后台通用-操作提示-弹窗方法
+        :return:
+        '''
+        flag = False
+        if self.check_element_displayed(AgHomeLocator.pop_text):
+            text = self.find_element(AgHomeLocator.pop_text).text
+            if str1 in text:
+                flag = True
+                logging.info(text)
+            else:
+                logging.error(text)
+            self.click_element(AgHomeLocator.pop_btn)
+        return flag
 
-
-
+    def condition_set(self):
+        '''
+        后台所有页面条件配置通用方法
+        :return:
+        '''
+        if 1:
+            self.click_element(AgHomeLocator.set_btn)
+            time.sleep(0.5)
+            el_list = self.find_elements(AgHomeLocator.check_box_list)
+            for i in range(len(el_list)):
+                if el_list[i].is_selected() == False:
+                    el_list[i].click()
+            self.click_element(AgHomeLocator.check_box_commit)
 
 

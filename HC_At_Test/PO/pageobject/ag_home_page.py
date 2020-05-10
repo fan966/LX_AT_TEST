@@ -45,6 +45,19 @@ class AgHomeLocator:
     mag_panel_btn = (By.XPATH, '//span[@class="l-btn-left"]/span[@class="l-btn-text l-btn-focus"][text()="确定"]')
 
 
+    # 操作提示通用弹窗文本
+    pop_text = (By.XPATH,'//div[@class="d-content"]/span')
+    # 操作提示tc通用确定按钮
+    pop_btn = (By.XPATH,'//div[@class="d-buttons"]/input[@type="button"]')
+
+
+    # 条件配置按钮
+    set_btn = (By.XPATH, '//div[@class="form-group-inline"]/a[text()="条件配置"]')
+    # 条件配置弹窗复选框选项list
+    check_box_list = (By.XPATH, '//div[@class="filter-list"]//li//input[@type="checkbox"]')
+    # 条件配置确定按钮
+    check_box_commit = (By.XPATH,'//div[@class="btn_confirm"]/button')
+
     @staticmethod
     def get_menu_loc(menu_name):
         '''
@@ -78,7 +91,7 @@ class AgHomeLocator:
     @staticmethod
     def get_table_refresh_loc(table_name):
         '''
-        获取table栏目
+        获取table栏目刷新按钮
         :param table_name:
         :return:
         '''

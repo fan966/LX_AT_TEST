@@ -1,0 +1,4 @@
+INFO     2020-05-10 23:28:18 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-10 23:28:59 ag_activ_test_case.py line:[43:] 【INFO】【开始执行用例】test1_add_activ_1
+INFO     2020-05-10 23:29:13 ag_activ_test_case.py line:[46:] 【INFO】【切换模块】【活动管理】【活动设置】
+INFO     2020-05-10 23:29:25 ag_activ_action.py   line:[13:] 【INFO】【功能检查】【充值流水活动】

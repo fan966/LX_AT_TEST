@@ -53,16 +53,17 @@ class Login(BaseAction):
         self.click_element(Loglocator.ag_log_btn)
 
     def close_dialog(self):
+        # 签到活动弹窗
         if self.check_element_displayed(UserCenterPage.user_actvi):
             self.click_element(UserCenterPage.usercenter_actviboard)
         else:
             pass
-
+        # 公告弹窗
         if self.check_element_displayed(UserCenterPage.user_ptgg):
             self.click_element(UserCenterPage.usercenter_board)
         else:
             pass
-
+        # 签到活动弹窗
         if self.check_element_displayed(UserCenterPage.user_actvi):
             self.click_element(UserCenterPage.usercenter_actviboard)
         else:

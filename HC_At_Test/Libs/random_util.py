@@ -28,11 +28,19 @@ class RandomUtil:
         bankno = random.randint(111111111111111111, 999999999999999999)
         return "{}".format(bankno)
     def random_name(self):
+        '''
+        获取随机姓名
+        :return:
+        '''
         str1 = random.choice(self.first_names)
         str2 = random.choice(self.last_names)
         name = str1 + str2
         return name
     def str_random(self):
+        '''
+        获取随机字符串
+        :return:
+        '''
         pass
 
 
