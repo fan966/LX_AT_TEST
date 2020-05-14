@@ -62,6 +62,16 @@ def get_time_str():
     time_str = time.strftime('%m%d%H%M%S')
     return time_str
 
+def get_random_info_str(item):
+    '''
+    根据参数随机获取item个字符串
+    :return:
+    '''
+    text = '0123456789qwertyuiopasdfghjklzxcvbnm'
+    str_info = random.sample(text,item)
+    temp = ''.join(str_info)
+    return temp
+
 def util_str_convert_tupledata(str1,str_split='/',data_split = ','):
     '''
     通用字符串转换数据组 例如：V1,10,1/V2,100,10  转换后为 {'1': ['V1', '10', '1'], '2': ['V2', '100', '10']} 再排序得到元组数据列表 [('1', ['V1', '10', '1']), ('2', ['V2', '100', '10'])]
@@ -83,12 +93,13 @@ def util_str_convert_tupledata(str1,str_split='/',data_split = ','):
 if __name__ == '__main__':
     # text = get_time_str()
     # print(text)
-    text1 = '3|100,1000,2,5'
-
-    test2 = text1.split('|')
-    print(test2[1])
-    t = util_str_convert_tupledata(test2[1])
-    print(t)
-    for num,value in t:
-        print(num)
-        print(value)
+    # text1 = '3|100,1000,2,5'
+    #
+    # test2 = text1.split('|')
+    # print(test2[1])
+    # t = util_str_convert_tupledata(test2[1])
+    # print(t)
+    # for num,value in t:
+    #     print(num)
+    #     print(value)
+    print(get_random_info_str(5))

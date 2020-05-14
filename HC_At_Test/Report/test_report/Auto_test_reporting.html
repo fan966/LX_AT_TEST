@@ -123,9 +123,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">Lx自动化测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> Fan</p>
-<p class='attribute'><strong>开始时间 : </strong> 2020-05-11 02:17:56</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:02:14.862864</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 1，通过 1，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-05-15 00:57:20</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:02:41.884800</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 3，通过 2，失败 1，通过率= 66.67%</p>
 
 <p class='description'>首次测试报告</p>
 </div>
@@ -133,10 +133,10 @@ function html_escape(s) {
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 1 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 1 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 66.67% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 2 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 3 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -156,41 +156,59 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='passClass warning'>
-    <td>ag_activ_test_case.AgActivTestCase</td>
-    <td class="text-center">1</td>
+<tr class='failClass warning'>
+    <td>ag_yuebao_test_case.AgYueBaoTestCase</td>
+    <td class="text-center">3</td>
+    <td class="text-center">2</td>
     <td class="text-center">1</td>
     <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',3)" class="detail" id='c1'>详细</a></td>
 </tr>
 
-<tr id='pt1_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test1_add_activ_1: 配置文件添加活动</div></td>
+<tr id='ft1_1' class='none'>
+    <td class='failCase'><div class='testcase'>test1_min_amount: 小于最低限额test</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
-    <div id='div_pt1_1' class="collapse in" style="text-align:left">  -->
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>失败</button>
+    <div id='div_ft1_1' class="collapse in" style="text-align:left">  -->
 
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
-    <div id='div_pt1_1' class="collapse in" style="text-align:left">
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>失败</button>
+    <div id='div_ft1_1' class="collapse in" style="text-align:left">
     <pre>
     
-pt1_1: 
+ft1_1: Traceback (most recent call last):
+  File "E:\web_AT_test\HC_At_Test\TestCase\ag_yuebao_test_case.py", line 52, in test1_min_amount
+    self.assertTrue(flag,'小于最低金额执行失败，请检查！')
+AssertionError: False is not true : 小于最低金额执行失败，请检查！
+Traceback (most recent call last):
+  File "E:\web_AT_test\HC_At_Test\TestCase\ag_yuebao_test_case.py", line 52, in test1_min_amount
+    self.assertTrue(flag,'小于最低金额执行失败，请检查！')
+AssertionError: False is not true : 小于最低金额执行失败，请检查！
+
 
     </pre>
     </div>
     </td>
 </tr>
 
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test2_max_amount: 超过最大限额test</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test3_yuebao_success: 正确金额购买test</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>1</td>
+    <td>3</td>
+    <td>2</td>
     <td>1</td>
     <td>0</td>
-    <td>0</td>
-    <td>通过率：100.00%</td>
+    <td>通过率：66.67%</td>
 </tr>
 </table>
 

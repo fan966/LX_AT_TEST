@@ -32,6 +32,13 @@ class AgHome(BaseAction):
             logging.error(err)
             logging.info('【INFO】切换菜单失败，请检查{}：一级菜单【{}】：二级菜单【{}】'.format(sys._getframe().f_code.co_name,first,second))
 
+    def swith_parent_iframe(self):
+        '''
+        切换至父级iframe
+        :return:
+        '''
+        self.driver.switch_to.parent_frame()
+
     def swith_table(self,table_name):
         '''
         根据table名点击table栏目

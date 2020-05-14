@@ -55,6 +55,7 @@ class ExcelUtil(object):
         rows = self.get_rows()
         # 获取第一行得值
         rows_value = self.sheet.row_values(0)
+
         for i in range(1,rows):
             values = self.sheet.row_values(i)
             dic =dict(zip(rows_value,values))
@@ -104,20 +105,20 @@ class ExcelUtil(object):
 
 
 if __name__ == "__main__":
-    ex = ExcelUtil(activ_path)
-    list1 = ex.read_excel_value_type_getdata()
-    print(list1)
-    print(list1[0]['top_bet_activ'])
-    num = list1[0]['top_bet_activ'].split('|')[1] # [0] 代表切割完后list的下标0值复制给num
-    print(num)
-    input_value = util_str_convert_tupledata(num)
-    for item_num,value in input_value:
-        print(item_num,value)
-        l = 0
-        for j in range(len(value)):
-            l += 1
-            print(l)
-            # shuru i l
+    ex = ExcelUtil(data_path)
+    list1 = ex.read_excel_addlist()
+    # print(list1)
+    # print(list1[0]['top_bet_activ'])
+    # num = list1[0]['top_bet_activ'].split('|')[1] # [0] 代表切割完后list的下标0值复制给num
+    # print(num)
+    # input_value = util_str_convert_tupledata(num)
+    # for item_num,value in input_value:
+    #     print(item_num,value)
+    #     l = 0
+    #     for j in range(len(value)):
+    #         l += 1
+    #         print(l)
+    #         # shuru i l
 
 
 

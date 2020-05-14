@@ -34,3 +34,33 @@ if datas[0]['play2'] == '':
     print('空字符串')
 elif datas[0]['play2'] == None:
     print('=None')
+
+
+for item,value in data_value: # 2data
+    # 获取tr【item】的list
+    #el = find()
+    for k in range(len(el)):
+        el[k].send_keys(value[k])
+    # 判断总行数是否>item
+    # 大于则点击新增
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

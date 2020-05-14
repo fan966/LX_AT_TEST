@@ -1,0 +1,74 @@
+INFO     2020-05-15 00:12:48 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-15 00:18:31 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-15 00:19:32 ag_yuebao_activ.py   line:[48:] 图片上传成功
+INFO     2020-05-15 00:19:47 ag_yuebao_activ.py   line:[86:] 新增余额宝活动成功！
+INFO     2020-05-15 00:20:15 ag_yuebao_test_case.py line:[49:] 开始执行case：test1_min_amount
+INFO     2020-05-15 00:20:15 ag_yuebao_test_case.py line:[50:] 【功能检查】【余额宝购买金额小于最低限额】
+INFO     2020-05-15 00:20:27 ag_yuebao_test_case.py line:[60:] 开始执行case：test2_max_amount
+INFO     2020-05-15 00:20:27 ag_yuebao_test_case.py line:[61:] 【功能检查】【余额宝购买金额超过最大限额】
+INFO     2020-05-15 00:24:35 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-15 00:25:35 ag_yuebao_activ.py   line:[48:] 图片上传成功
+INFO     2020-05-15 00:25:48 ag_yuebao_activ.py   line:[86:] 新增余额宝活动成功！
+INFO     2020-05-15 00:25:58 Base_Action.py       line:[94:] ttt1:值输入失败：('xpath', '//input[contains(@data-bind,"textinput:fields.username")]')
+INFO     2020-05-15 00:26:01 Base_Action.py       line:[94:] aaaa2222:值输入失败：('xpath', '//input[contains(@data-bind,"textinput:fields.password")]')
+INFO     2020-05-15 00:26:46 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-15 00:27:52 ag_yuebao_activ.py   line:[48:] 图片上传成功
+INFO     2020-05-15 00:28:06 ag_yuebao_activ.py   line:[86:] 新增余额宝活动成功！
+INFO     2020-05-15 00:28:39 ag_yuebao_test_case.py line:[49:] 开始执行case：test1_min_amount
+INFO     2020-05-15 00:28:39 ag_yuebao_test_case.py line:[50:] 【功能检查】【余额宝购买金额小于最低限额】
+INFO     2020-05-15 00:28:55 ag_yuebao_test_case.py line:[60:] 开始执行case：test2_max_amount
+INFO     2020-05-15 00:28:55 ag_yuebao_test_case.py line:[61:] 【功能检查】【余额宝购买金额超过最大限额】
+INFO     2020-05-15 00:32:13 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-15 00:33:14 ag_yuebao_activ.py   line:[48:] 图片上传成功
+INFO     2020-05-15 00:33:28 ag_yuebao_activ.py   line:[86:] 新增余额宝活动成功！
+INFO     2020-05-15 00:33:56 ag_yuebao_test_case.py line:[49:] 开始执行case：test1_min_amount
+INFO     2020-05-15 00:33:56 ag_yuebao_test_case.py line:[50:] 【功能检查】【余额宝购买金额小于最低限额】
+INFO     2020-05-15 00:34:14 ag_yuebao_test_case.py line:[60:] 开始执行case：test2_max_amount
+INFO     2020-05-15 00:34:14 ag_yuebao_test_case.py line:[61:] 【功能检查】【余额宝购买金额超过最大限额】
+INFO     2020-05-15 00:34:28 us_center_action.py  line:[108:] 购买金额不在限额内
+ERROR    2020-05-15 00:34:34 us_center_action.py  line:[115:] Message: unknown error: Cannot read property 'style' of null
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-15 00:51:52 run.py               line:[15:] 开始执行测试......
+INFO     2020-05-15 00:51:58 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-15 00:52:58 ag_yuebao_activ.py   line:[48:] 图片上传成功
+INFO     2020-05-15 00:53:11 ag_yuebao_activ.py   line:[86:] 新增余额宝活动成功！
+INFO     2020-05-15 00:53:39 ag_yuebao_test_case.py line:[48:] 开始执行case：test1_min_amount
+INFO     2020-05-15 00:53:39 ag_yuebao_test_case.py line:[49:] 【功能检查】【余额宝购买金额小于最低限额】
+INFO     2020-05-15 00:53:55 ag_yuebao_test_case.py line:[60:] 开始执行case：test2_max_amount
+INFO     2020-05-15 00:53:55 ag_yuebao_test_case.py line:[61:] 【功能检查】【余额宝购买金额超过最大限额】
+INFO     2020-05-15 00:54:08 us_center_action.py  line:[108:] 购买金额不在限额内
+ERROR    2020-05-15 00:54:14 us_center_action.py  line:[115:] Message: unknown error: Cannot read property 'style' of null
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-15 00:54:14 ag_yuebao_test_case.py line:[72:] 开始执行case：test3_yuebao_success
+INFO     2020-05-15 00:54:14 ag_yuebao_test_case.py line:[73:] 【功能检查】【正确金额购买】
+INFO     2020-05-15 00:54:27 us_center_action.py  line:[108:] 购买金额不在限额内
+ERROR    2020-05-15 00:54:32 us_center_action.py  line:[115:] Message: unknown error: Cannot read property 'style' of null
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-15 00:54:35 run.py               line:[30:] 测试结束......
+INFO     2020-05-15 00:57:20 run.py               line:[15:] 开始执行测试......
+INFO     2020-05-15 00:57:25 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-15 00:58:25 ag_yuebao_activ.py   line:[48:] 图片上传成功
+INFO     2020-05-15 00:58:39 ag_yuebao_activ.py   line:[86:] 新增余额宝活动成功！
+INFO     2020-05-15 00:59:07 ag_yuebao_test_case.py line:[48:] 开始执行case：test1_min_amount
+INFO     2020-05-15 00:59:07 ag_yuebao_test_case.py line:[49:] 【功能检查】【余额宝购买金额小于最低限额】
+INFO     2020-05-15 00:59:23 ag_yuebao_test_case.py line:[60:] 开始执行case：test2_max_amount
+INFO     2020-05-15 00:59:23 ag_yuebao_test_case.py line:[61:] 【功能检查】【余额宝购买金额超过最大限额】
+INFO     2020-05-15 00:59:36 us_center_action.py  line:[108:] 购买金额不在限额内
+ERROR    2020-05-15 00:59:41 us_center_action.py  line:[115:] Message: unknown error: Cannot read property 'style' of null
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-15 00:59:41 ag_yuebao_test_case.py line:[72:] 开始执行case：test3_yuebao_success
+INFO     2020-05-15 00:59:41 ag_yuebao_test_case.py line:[73:] 【功能检查】【正确金额购买】
+INFO     2020-05-15 00:59:53 us_center_action.py  line:[108:] 购买成功
+ERROR    2020-05-15 00:59:59 us_center_action.py  line:[115:] Message: unknown error: Cannot read property 'style' of null
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-15 01:00:02 run.py               line:[30:] 测试结束......

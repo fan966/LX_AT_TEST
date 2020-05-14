@@ -1,0 +1,39 @@
+INFO     2020-05-12 20:00:06 webdriver.py         line:[16:] 启动:chrome
+ERROR    2020-05-12 20:01:45 Base_Action.py       line:[74:] Message: unknown error: Element <a class="btn btn-primary" style="border: 6px solid red;">...</a> is not clickable at point (199, 494). Other element would receive the click: <div class="window-mask" style="width: 1758px; height: 806px; display: block; z-index: 9003;"></div>
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-12 20:01:45 Base_Action.py       line:[75:] 元素点击失败('xpath', '//a[@class="btn btn-primary"][text()="选择代理"]')
+ERROR    2020-05-12 20:01:47 Base_Action.py       line:[74:] Message: element not visible
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-12 20:01:47 Base_Action.py       line:[75:] 元素点击失败('xpath', '//a[@class="btn btn-success"][text()="所有页全选"]')
+ERROR    2020-05-12 20:01:55 ag_yuebao_activ.py   line:[65:] Message: unknown error: Cannot read property 'style' of null
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-12 20:12:09 webdriver.py         line:[16:] 启动:chrome
+ERROR    2020-05-12 20:13:40 ag_yuebao_activ.py   line:[67:] Message: unknown error: Cannot read property 'style' of null
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-12 20:21:25 webdriver.py         line:[16:] 启动:chrome
+ERROR    2020-05-12 20:22:52 ag_yuebao_activ.py   line:[69:] Message: unknown error: Cannot read property 'style' of null
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-12 20:49:04 webdriver.py         line:[16:] 启动:chrome
+ERROR    2020-05-12 20:50:39 ag_yuebao_activ.py   line:[71:] 'NoneType' object has no attribute 'click'
+INFO     2020-05-12 20:55:35 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-12 21:03:25 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-12 21:06:34 webdriver.py         line:[16:] 启动:chrome
+ERROR    2020-05-12 21:08:05 ag_yuebao_activ.py   line:[71:] Message: unknown error: Cannot read property 'style' of null
+  (Session info: chrome=81.0.4044.138)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64)
+
+INFO     2020-05-12 21:10:37 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-12 21:17:34 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-12 21:23:21 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-12 23:52:16 webdriver.py         line:[16:] 启动:chrome
+INFO     2020-05-12 23:54:59 webdriver.py         line:[16:] 启动:chrome

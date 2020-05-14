@@ -102,11 +102,12 @@ class Us_Center_action(BaseAction):
         flag = False
         time.sleep(1.5)
         try:
-            if self.check_element_displayed(UserCenterPage.msg_prompt):
+            if self.check_element_displayed(locator):
                 el = self.find_element(locator)
                 if str_ in el.text:
                     logging.info(el.text)
                     flag = True
+                    self.click_element(UserCenterPage.msg_prompt_sbmit)
                 else:
                     logging.error(el.text)
                 self.click_element(UserCenterPage.msg_prompt_sbmit)

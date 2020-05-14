@@ -33,8 +33,8 @@ class BaseAction(WebDriver):
         element = None
         try:
             # 添加智能等待时间
-            temp = WebDriverWait(self.driver, 5)
-            temp.until(lambda X: self.driver.find_element(*locator))
+            temp = WebDriverWait(self.driver, 3)
+            temp.until(lambda X: X.find_element(*locator))
             element = self.driver.find_element(*locator)
         except Exception as err:
             #logging.info('元素查找失败：{}:{}'.format(locator,err))
@@ -101,8 +101,11 @@ class BaseAction(WebDriver):
         :return:
         '''
         el = self.find_element(locator)
-        text = el.text
-        return text
+        if el != None:
+            text = el.text
+            return text
+        else:
+            logging.info('空类型无text属性')
 
     def red_style(self, locator):
         '''
@@ -347,7 +350,7 @@ class BaseAction(WebDriver):
         :return:
         '''
         # 按行查询表格的数据，取出的数据是一整行，按空格分隔每一列的数据
-        table_tr_list = self.driver.find_element(locator).find_elements(By.TAG_NAME, "tr")
+        table_tr_list = self.driver.find_element(*locator).find_elements(By.TAG_NAME, "tr")
         table_list = []  # 存放table数据
         for tr in table_tr_list:  # 遍历每一个tr
             # 将每一个tr的数据根据td查询出来，返回结果为list对象
@@ -365,6 +368,42 @@ class BaseAction(WebDriver):
         #         if queryContent == table_list[i][j]:
         #             print("%r坐标为(%r,%r)" % (queryContent, i + 1, j + 1))
 
+    def web_crawler_table_data(self,table_loc):
+        '''
+        网络爬虫table数据
+        :return:
+        '''
+        table_tr_list = self.driver.find_element(*table_loc).find_elements(By.TAG_NAME,'tr')
+
+        data_list = []
+        for tr in range(len(table_tr_list)):
+
+            if tr == 0:
+                row_list = []
+                data = table_tr_list[tr].find_elements(By.TAG_NAME, "th")
+                for j in data:
+                    row_list.append(j.text)
+                data_list.append(row_list)
+            else:
+                row_list1 = []
+                temp = table_tr_list[tr].find_elements(By.TAG_NAME, "td")
+                for k in temp:
+                    row_list1.append(k.text)
+                data_list.append(row_list1)
+
+        return data_list
+            #data_list [['产品名称', '单笔限额', '计算周期(小时)', '利率', '利息上限', '续存次数', '剩余数量', '利息稽核倍数', '操作'], ['2', '2-23', '2小时', '2%', '2', '2', '1', '2倍', '立即购买'], ['3', '23-456', '4小时', '4%', '4', '4', '4', '4倍', '立即购买']]
+
+
+
+
+
+
+
+
+
+
+
 if __name__ == "__main__":
     try:
         b = BaseAction()
@@ -374,7 +413,7 @@ if __name__ == "__main__":
         b.send_value(Loglocator.userpwd,"aaaa2222")
         b.click_element(Loglocator.log_btn)
         time.sleep(3)
-        b.get_url("http://csdqthcweb.lx901.com/OffcialOtherGame/Index/363#3.0.0")
+        b.get_url("http://csdqthcweb.lx901.com/BalanceActivity/Index")
         l = (By.XPATH,'//div[@class="mainNav-list"]/a')
         el = b.find_elements(*l)
 
