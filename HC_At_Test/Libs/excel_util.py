@@ -22,6 +22,8 @@ class ExcelUtil(object):
             self.index = index
         self.data = xlrd.open_workbook(self.file_path)  # 打开文件获取整个文件数据
         self.sheet = self.data.sheets()[self.index]  # 获取sheet页内容
+        self.sheetnames = self.data.sheet_names() # 获取excel所有sheet名
+
 
 
     def get_rows(self):

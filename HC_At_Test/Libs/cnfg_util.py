@@ -12,8 +12,12 @@ def config_ini(ini_name,sections,key):
     # 返回获取值
     return cf.get(sections,key)
 
+def option(ini_name):
+    cf = configparser.ConfigParser()
+    cf.read(ini_path + ini_name,encoding='utf8')
+    print(cf.options('default'))
 if __name__ == "__main__":
-    value = config_ini('config.ini','default','browesr_name')
-    print(value)
-    value1 = config_ini('financial.ini','web','pmtp')
-    print(value1)
+    # value = config_ini('config.ini','default','test')
+    # print(value)
+    option('config.ini')
+

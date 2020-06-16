@@ -41,6 +41,7 @@ class Login(BaseAction):
         time.sleep(1)
 
 
+
     def ag_login(self,url,user,pwd):
         # 输入url
         self.get_url(url + '/Login')
