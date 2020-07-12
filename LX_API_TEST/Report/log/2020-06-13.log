@@ -1,0 +1,410 @@
+INFO     2020-06-13 01:28:36 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:28:36 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:29:53 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:29:53 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:30:44 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:30:44 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:30:44 http_requests.py     line:[57:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:30:44 http_requests.py     line:[154:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+ERROR    2020-06-13 01:30:44 http_requests.py     line:[174:] can only concatenate str (not "dict") to str
+INFO     2020-06-13 01:33:19 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:33:19 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:33:19 http_requests.py     line:[57:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:33:19 http_requests.py     line:[155:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+ERROR    2020-06-13 01:33:19 http_requests.py     line:[175:] can only concatenate str (not "dict") to str
+INFO     2020-06-13 01:35:20 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:35:20 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:35:20 http_requests.py     line:[57:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:35:20 http_requests.py     line:[155:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 01:35:20 http_requests.py     line:[156:] {}
+INFO     2020-06-13 01:35:20 http_requests.py     line:[170:] 请求返回码 ： 502
+INFO     2020-06-13 01:35:20 http_requests.py     line:[171:] 请求返回体 ： 
+[Fiddler] DNS Lookup for "csdqthcapi.lx901.comapi" failed. System.Net.Sockets.SocketException 不知道这样的主机。                                                                                                                                                                                                                                                                                                                                                                                                                         
+INFO     2020-06-13 01:35:20 http_requests.py     line:[57:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:35:20 http_requests.py     line:[155:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 01:35:20 http_requests.py     line:[156:] {}
+INFO     2020-06-13 01:35:20 http_requests.py     line:[170:] 请求返回码 ： 502
+INFO     2020-06-13 01:35:20 http_requests.py     line:[171:] 请求返回体 ： 
+[Fiddler] DNS Lookup for "csdqthcapi.lx901.comapi" failed. System.Net.Sockets.SocketException 不知道这样的主机。                                                                                                                                                                                                                                                                                                                                                                                                                         
+INFO     2020-06-13 01:35:20 http_requests.py     line:[57:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:35:20 http_requests.py     line:[155:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 01:35:20 http_requests.py     line:[156:] {}
+INFO     2020-06-13 01:35:20 http_requests.py     line:[170:] 请求返回码 ： 502
+INFO     2020-06-13 01:35:20 http_requests.py     line:[171:] 请求返回体 ： 
+[Fiddler] DNS Lookup for "csdqthcapi.lx901.comapi" failed. System.Net.Sockets.SocketException 不知道这样的主机。                                                                                                                                                                                                                                                                                                                                                                                                                         
+INFO     2020-06-13 01:35:42 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:35:42 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:35:42 http_requests.py     line:[57:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:35:42 http_requests.py     line:[155:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 01:35:42 http_requests.py     line:[156:] {}
+ERROR    2020-06-13 01:35:42 http_requests.py     line:[175:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001938DF5AB88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 01:38:08 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:38:08 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:38:08 http_requests.py     line:[57:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:38:08 http_requests.py     line:[155:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 01:38:08 http_requests.py     line:[156:] {}
+ERROR    2020-06-13 01:38:08 http_requests.py     line:[175:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027D5B5FC688>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 01:40:14 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:40:14 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:45:13 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:45:13 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:45:13 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:45:13 http_requests.py     line:[164:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 01:45:13 http_requests.py     line:[165:] {}
+ERROR    2020-06-13 01:45:13 http_requests.py     line:[184:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025765D22488>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 01:46:08 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:46:08 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:46:08 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:46:08 http_requests.py     line:[164:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 01:46:08 http_requests.py     line:[165:] {}
+ERROR    2020-06-13 01:46:08 http_requests.py     line:[184:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026C7C5E9B48>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 01:47:34 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:47:34 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:47:34 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:47:34 http_requests.py     line:[164:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 01:47:34 http_requests.py     line:[165:] {}
+ERROR    2020-06-13 01:47:34 http_requests.py     line:[188:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F0FB7C70C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 01:48:20 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:48:20 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:48:20 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:48:20 http_requests.py     line:[164:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 01:48:20 http_requests.py     line:[165:] {}
+ERROR    2020-06-13 01:48:20 http_requests.py     line:[189:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002127E91F188>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 01:55:59 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:55:59 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:55:59 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:55:59 http_requests.py     line:[164:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 01:55:59 http_requests.py     line:[165:] 请求消息体： 
+{}
+ERROR    2020-06-13 01:55:59 http_requests.py     line:[189:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024E81F79848>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 01:57:55 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 01:57:55 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 01:57:55 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 01:57:55 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 01:57:55 http_requests.py     line:[170:] 请求消息体： 
+{}
+ERROR    2020-06-13 01:57:55 http_requests.py     line:[194:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DE9EFD2308>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 02:00:26 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:00:26 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:00:26 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:00:26 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 02:00:26 http_requests.py     line:[170:] 请求消息体： 
+{}
+ERROR    2020-06-13 02:00:26 http_requests.py     line:[195:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024DC2B3BD48>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 02:02:04 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:02:04 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:02:04 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:02:04 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 02:02:04 http_requests.py     line:[170:] 请求消息体： 
+{}
+ERROR    2020-06-13 02:02:04 http_requests.py     line:[196:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000220923FBA48>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 02:04:07 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:04:07 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:04:07 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:04:07 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 02:04:07 http_requests.py     line:[170:] 请求消息体： 
+{}
+ERROR    2020-06-13 02:04:07 http_requests.py     line:[196:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000222FE853188>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 02:07:48 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:07:48 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:07:48 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:07:48 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.comapi/GetValidateTokenKey
+INFO     2020-06-13 02:07:48 http_requests.py     line:[170:] 请求消息体： 
+{}
+ERROR    2020-06-13 02:07:48 http_requests.py     line:[196:] HTTPConnectionPool(host='csdqthcapi.lx901.comapi', port=80): Max retries exceeded with url: /GetValidateTokenKey (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002EDACFF0A88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO     2020-06-13 02:09:39 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:09:39 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:09:39 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:09:39 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:09:39 http_requests.py     line:[170:] 请求消息体： 
+{}
+INFO     2020-06-13 02:09:40 http_requests.py     line:[191:] 请求返回码 ： 200
+INFO     2020-06-13 02:09:40 http_requests.py     line:[192:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_d609f287799d44178aaf7f240340f6a8",
+        "SessionId": "ru2k4ppoexyn1wkvxjrnwrz4",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
+INFO     2020-06-13 02:09:40 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:09:40 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:09:40 http_requests.py     line:[170:] 请求消息体： 
+{}
+INFO     2020-06-13 02:09:40 http_requests.py     line:[191:] 请求返回码 ： 200
+INFO     2020-06-13 02:09:40 http_requests.py     line:[192:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_b225b11e6e6a440bb877bec8b37d0ff4",
+        "SessionId": "4ijbpqutmyymsbkolnvey3mx",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
+INFO     2020-06-13 02:09:40 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:09:40 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:09:40 http_requests.py     line:[170:] 请求消息体： 
+{}
+INFO     2020-06-13 02:09:41 http_requests.py     line:[191:] 请求返回码 ： 200
+INFO     2020-06-13 02:09:41 http_requests.py     line:[192:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_702156326ad54fd08b7f60448b098a8b",
+        "SessionId": "zgogsdakxvd51fxgn0kjypdo",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
+INFO     2020-06-13 02:10:35 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:10:35 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:10:35 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:10:35 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:10:35 http_requests.py     line:[170:] 请求消息体： 
+{}
+INFO     2020-06-13 02:10:36 http_requests.py     line:[185:] 请求返回码 ： 200
+INFO     2020-06-13 02:10:36 http_requests.py     line:[186:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_5a6e76ba2f744487a62a9e23c391478a",
+        "SessionId": "purrwb4cg2ghyspkbpfc0anb",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
+INFO     2020-06-13 02:10:36 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:10:36 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:10:36 http_requests.py     line:[170:] 请求消息体： 
+{}
+INFO     2020-06-13 02:10:36 http_requests.py     line:[185:] 请求返回码 ： 200
+INFO     2020-06-13 02:10:36 http_requests.py     line:[186:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_f473758bc0884671b661423795127a42",
+        "SessionId": "tssrfckd1qatu3tpfrqvwub5",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
+INFO     2020-06-13 02:10:36 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:10:36 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:10:36 http_requests.py     line:[170:] 请求消息体： 
+{}
+INFO     2020-06-13 02:10:36 http_requests.py     line:[185:] 请求返回码 ： 200
+INFO     2020-06-13 02:10:36 http_requests.py     line:[186:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_f6f2d39da965451b9545e693377605cf",
+        "SessionId": "4hc4vfihwody4tlwkjzgcaye",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
+INFO     2020-06-13 02:13:48 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:13:48 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:13:48 http_requests.py     line:[65:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:13:48 http_requests.py     line:[164:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:13:48 http_requests.py     line:[165:] 请求消息体： 
+{}
+INFO     2020-06-13 02:13:48 http_requests.py     line:[180:] 请求返回码 ： 200
+INFO     2020-06-13 02:13:48 http_requests.py     line:[181:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_1df29771ca58416ca4e11a7f4a6a4f02",
+        "SessionId": "avy0k53344ng5o5zodj1dt3c",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
+INFO     2020-06-13 02:16:15 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:16:15 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:16:15 http_requests.py     line:[60:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:16:15 http_requests.py     line:[159:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:16:15 http_requests.py     line:[160:] 请求消息体： 
+{}
+INFO     2020-06-13 02:16:15 http_requests.py     line:[175:] 请求返回码 ： 200
+INFO     2020-06-13 02:16:15 http_requests.py     line:[176:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_5b272e363c534129b4bdc407467a5fef",
+        "SessionId": "gilfme3prb5omk5iwzmsjs41",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
+INFO     2020-06-13 02:25:02 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:25:02 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:27:17 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:27:17 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:27:54 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:27:54 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:30:36 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:30:36 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:30:36 http_requests.py     line:[98:] 获取接口模板信息 ：  
+{
+    "url": "/api/GetValidateTokenKey",
+    "method": "get",
+    "is_sing": "no",
+    "api_type": "HC",
+    "headers": {},
+    "body": {}
+}
+INFO     2020-06-13 02:41:20 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:41:20 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:41:20 http_requests.py     line:[96:] 获取接口模板信息 ：  
+{
+    "url": "/api/GetValidateTokenKey",
+    "method": "get",
+    "is_sing": "no",
+    "api_type": "HC",
+    "headers": {},
+    "body": {}
+}
+INFO     2020-06-13 02:41:32 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:41:32 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:41:32 http_requests.py     line:[96:] 获取接口模板信息 ：  
+{
+    "url": "/api/GetValidateTokenKey",
+    "method": "get",
+    "is_sing": "no",
+    "api_type": "HC",
+    "headers": {},
+    "body": {}
+}
+INFO     2020-06-13 02:41:32 http_requests.py     line:[58:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:41:32 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:41:32 http_requests.py     line:[170:] 请求消息体： 
+{}
+INFO     2020-06-13 02:41:33 http_requests.py     line:[185:] 请求返回码 ： 200
+INFO     2020-06-13 02:41:33 http_requests.py     line:[186:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_9fc51c998a30459dae55514479d460dc",
+        "SessionId": "e35p1vdf5dieivae4qrdulup",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
+INFO     2020-06-13 02:41:41 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:41:41 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:41:41 http_requests.py     line:[96:] 获取接口模板信息 ：  
+{
+    "url": "/api/GetValidateTokenKey",
+    "method": "get",
+    "is_sing": "no",
+    "api_type": "HC",
+    "headers": {},
+    "body": {}
+}
+INFO     2020-06-13 02:41:41 http_requests.py     line:[58:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:41:41 http_requests.py     line:[169:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:41:41 http_requests.py     line:[170:] 请求消息体： 
+{}
+INFO     2020-06-13 02:41:42 http_requests.py     line:[185:] 请求返回码 ： 200
+INFO     2020-06-13 02:41:42 http_requests.py     line:[186:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_604be98aa8014c238a796cd0ec8205e7",
+        "SessionId": "3q5sbbh5dzirrtvbjhbewanl",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
+INFO     2020-06-13 02:42:21 api_user_login_case.py line:[17:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:42:21 api_user_login_case.py line:[21:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:42:21 http_requests.py     line:[94:] 获取接口模板信息 ：  
+{
+    "url": "/api/GetValidateTokenKey",
+    "method": "get",
+    "is_sing": "no",
+    "api_type": "HC",
+    "headers": {},
+    "body": {}
+}
+INFO     2020-06-13 02:42:21 http_requests.py     line:[58:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:42:21 http_requests.py     line:[167:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:42:21 http_requests.py     line:[168:] 请求消息体： 
+{}
+INFO     2020-06-13 02:42:22 http_requests.py     line:[183:] 请求返回码 ： 200
+INFO     2020-06-13 02:42:22 http_requests.py     line:[184:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_21461d7cebda4babb84ddadb2e20d8c2",
+        "SessionId": "y1iv0mhilwtmxxkozajudrpz",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
+INFO     2020-06-13 02:45:29 api_user_login_case.py line:[18:] 启动脚本文件 :  api_user_login_case.py
+INFO     2020-06-13 02:45:29 api_user_login_case.py line:[22:] 开始执行用例： 用户登录，登陆成功 ( test_login_01_1 )
+INFO     2020-06-13 02:45:29 http_requests.py     line:[94:] 获取接口模板信息 ：  
+{
+    "url": "/api/GetValidateTokenKey",
+    "method": "get",
+    "is_sing": "no",
+    "api_type": "HC",
+    "headers": {},
+    "body": {}
+}
+INFO     2020-06-13 02:45:29 http_requests.py     line:[58:] 调用： 登录注册.获取全局Token值
+INFO     2020-06-13 02:45:29 http_requests.py     line:[167:] 请求url： http://csdqthcapi.lx901.com/api/GetValidateTokenKey
+INFO     2020-06-13 02:45:29 http_requests.py     line:[168:] 请求消息体： 
+{}
+INFO     2020-06-13 02:45:29 http_requests.py     line:[183:] 请求返回码 ： 200
+INFO     2020-06-13 02:45:29 http_requests.py     line:[184:] 请求返回体 ： 
+{
+    "Status": true,
+    "Info": "",
+    "Data": {
+        "Key": "ValidateToken",
+        "Value": "_0ee2df797111451c9968e2d9ee8c1418",
+        "SessionId": "gutqgvgy1vhywyvlc2utgmzt",
+        "IsOpenRegister": true,
+        "MobileLoginServiceTip": "登录客服提示"
+    },
+    "Code": 0
+}
