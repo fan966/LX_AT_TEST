@@ -1,0 +1,524 @@
+INFO     2020-07-10 02:13:17 Api_Web_User_Login_Case.py line:[21:] 启动脚本文件 :  Api_Web_User_Login_Case.py
+INFO     2020-07-10 02:13:17 Api_Web_User_Login_Case.py line:[28:] 开始执行用例： PC前台用户登录 ( test_web_user_login_01_1 )
+INFO     2020-07-10 02:13:17 Api_Web_User_Login_Case.py line:[29:] ======================调用：用户登录接口=======================
+INFO     2020-07-10 02:13:17 http_requests.py     line:[100:] 获取接口模板信息 ：  
+{
+    "url": "/Home/login",
+    "method": "post",
+    "is_sing": "no",
+    "api_type": "WEB",
+    "headers": {},
+    "body": {
+        "username": "ttt1",
+        "password": "8196658ecaeceb870d0ad3053dd579d2",
+        "validateCode": ""
+    }
+}
+INFO     2020-07-10 02:13:17 http_requests.py     line:[59:] 调用： 前台相关.用户登录
+INFO     2020-07-10 02:13:17 http_requests.py     line:[174:] 请求url： http://gshcapi.add177.com/Home/login
+INFO     2020-07-10 02:13:17 http_requests.py     line:[175:] 请求消息体： 
+"username=ttt1&password=8196658ecaeceb870d0ad3053dd579d2&validateCode="
+INFO     2020-07-10 02:13:17 http_requests.py     line:[190:] 请求返回码 ： 404
+INFO     2020-07-10 02:13:17 http_requests.py     line:[191:] 请求返回体 ： 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The resource cannot be found.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>The resource cannot be found.</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>HTTP 404. The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable. &nbsp;Please review the following URL and make sure that it is spelled correctly.
+            <br><br>
+
+            <b> Requested URL: </b>/Home/login<br><br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.7.3429.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[HttpException]: A public action method &#39;login&#39; was not found on controller &#39;OfficialReceptionAPI.Controllers.HomeController&#39;.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--><!-- 
+This error page might contain sensitive information because ASP.NET is configured to show verbose error messages using &lt;customErrors mode="Off"/&gt;. Consider using &lt;customErrors mode="On"/&gt; or &lt;customErrors mode="RemoteOnly"/&gt; in production environments.-->
+INFO     2020-07-10 02:15:12 Api_Web_User_Login_Case.py line:[21:] 启动脚本文件 :  Api_Web_User_Login_Case.py
+INFO     2020-07-10 02:15:12 Api_Web_User_Login_Case.py line:[28:] 开始执行用例： PC前台用户登录 ( test_web_user_login_01_1 )
+INFO     2020-07-10 02:15:12 Api_Web_User_Login_Case.py line:[29:] ======================调用：用户登录接口=======================
+INFO     2020-07-10 02:15:12 http_requests.py     line:[104:] 获取接口模板信息 ：  
+{
+    "url": "/Home/login",
+    "method": "post",
+    "is_sing": "no",
+    "api_type": "WEB",
+    "headers": {},
+    "body": {
+        "username": "ttt1",
+        "password": "8196658ecaeceb870d0ad3053dd579d2",
+        "validateCode": ""
+    }
+}
+INFO     2020-07-10 02:15:12 http_requests.py     line:[63:] 调用： 前台相关.用户登录
+INFO     2020-07-10 02:15:12 http_requests.py     line:[178:] 请求url： http://gshcapi.add177.com/Home/login
+INFO     2020-07-10 02:15:12 http_requests.py     line:[179:] 请求消息体： 
+{
+    "username": "ttt1",
+    "password": "8196658ecaeceb870d0ad3053dd579d2",
+    "validateCode": ""
+}
+INFO     2020-07-10 02:15:12 http_requests.py     line:[194:] 请求返回码 ： 404
+INFO     2020-07-10 02:15:12 http_requests.py     line:[195:] 请求返回体 ： 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The resource cannot be found.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>The resource cannot be found.</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>HTTP 404. The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable. &nbsp;Please review the following URL and make sure that it is spelled correctly.
+            <br><br>
+
+            <b> Requested URL: </b>/Home/login<br><br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.7.3429.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[HttpException]: A public action method &#39;login&#39; was not found on controller &#39;OfficialReceptionAPI.Controllers.HomeController&#39;.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--><!-- 
+This error page might contain sensitive information because ASP.NET is configured to show verbose error messages using &lt;customErrors mode="Off"/&gt;. Consider using &lt;customErrors mode="On"/&gt; or &lt;customErrors mode="RemoteOnly"/&gt; in production environments.-->
+INFO     2020-07-10 02:16:34 Api_Web_User_Login_Case.py line:[21:] 启动脚本文件 :  Api_Web_User_Login_Case.py
+INFO     2020-07-10 02:16:34 Api_Web_User_Login_Case.py line:[28:] 开始执行用例： PC前台用户登录 ( test_web_user_login_01_1 )
+INFO     2020-07-10 02:16:34 Api_Web_User_Login_Case.py line:[29:] ======================调用：用户登录接口=======================
+INFO     2020-07-10 02:16:34 http_requests.py     line:[105:] 获取接口模板信息 ：  
+{
+    "url": "/Home/login",
+    "method": "post",
+    "is_sing": "no",
+    "api_type": "WEB",
+    "headers": {},
+    "body": {
+        "username": "ttt1",
+        "password": "8196658ecaeceb870d0ad3053dd579d2",
+        "validateCode": ""
+    }
+}
+INFO     2020-07-10 02:16:34 http_requests.py     line:[64:] 调用： 前台相关.用户登录
+INFO     2020-07-10 02:16:34 http_requests.py     line:[179:] 请求url： http://gshcapi.add177.com/Home/login
+INFO     2020-07-10 02:16:34 http_requests.py     line:[180:] 请求消息体： 
+{
+    "username": "ttt1",
+    "password": "8196658ecaeceb870d0ad3053dd579d2",
+    "validateCode": ""
+}
+INFO     2020-07-10 02:16:34 http_requests.py     line:[195:] 请求返回码 ： 404
+INFO     2020-07-10 02:16:34 http_requests.py     line:[196:] 请求返回体 ： 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The resource cannot be found.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>The resource cannot be found.</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>HTTP 404. The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable. &nbsp;Please review the following URL and make sure that it is spelled correctly.
+            <br><br>
+
+            <b> Requested URL: </b>/Home/login<br><br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.7.3429.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[HttpException]: A public action method &#39;login&#39; was not found on controller &#39;OfficialReceptionAPI.Controllers.HomeController&#39;.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--><!-- 
+This error page might contain sensitive information because ASP.NET is configured to show verbose error messages using &lt;customErrors mode="Off"/&gt;. Consider using &lt;customErrors mode="On"/&gt; or &lt;customErrors mode="RemoteOnly"/&gt; in production environments.-->
+INFO     2020-07-10 02:18:19 Api_Web_User_Login_Case.py line:[21:] 启动脚本文件 :  Api_Web_User_Login_Case.py
+INFO     2020-07-10 02:18:19 Api_Web_User_Login_Case.py line:[28:] 开始执行用例： PC前台用户登录 ( test_web_user_login_01_1 )
+INFO     2020-07-10 02:18:19 Api_Web_User_Login_Case.py line:[29:] ======================调用：用户登录接口=======================
+INFO     2020-07-10 02:18:19 http_requests.py     line:[105:] 获取接口模板信息 ：  
+{
+    "url": "/Home/login",
+    "method": "post",
+    "is_sing": "no",
+    "api_type": "WEB",
+    "headers": {},
+    "body": {
+        "username": "ttt1",
+        "password": "8196658ecaeceb870d0ad3053dd579d2",
+        "validateCode": ""
+    }
+}
+INFO     2020-07-10 02:18:19 http_requests.py     line:[64:] 调用： 前台相关.用户登录
+INFO     2020-07-10 02:18:19 http_requests.py     line:[179:] 请求url： http://gshcapi.add177.com/Home/login
+INFO     2020-07-10 02:18:19 http_requests.py     line:[180:] 请求消息体： 
+{
+    "username": "ttt1",
+    "password": "8196658ecaeceb870d0ad3053dd579d2",
+    "validateCode": ""
+}
+INFO     2020-07-10 02:18:19 http_requests.py     line:[195:] 请求返回码 ： 404
+INFO     2020-07-10 02:18:19 http_requests.py     line:[196:] 请求返回体 ： 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The resource cannot be found.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>The resource cannot be found.</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>HTTP 404. The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable. &nbsp;Please review the following URL and make sure that it is spelled correctly.
+            <br><br>
+
+            <b> Requested URL: </b>/Home/login<br><br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.7.3429.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[HttpException]: A public action method &#39;login&#39; was not found on controller &#39;OfficialReceptionAPI.Controllers.HomeController&#39;.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--><!-- 
+This error page might contain sensitive information because ASP.NET is configured to show verbose error messages using &lt;customErrors mode="Off"/&gt;. Consider using &lt;customErrors mode="On"/&gt; or &lt;customErrors mode="RemoteOnly"/&gt; in production environments.-->
+INFO     2020-07-10 02:19:09 Api_Web_User_Login_Case.py line:[21:] 启动脚本文件 :  Api_Web_User_Login_Case.py
+INFO     2020-07-10 02:19:09 Api_Web_User_Login_Case.py line:[28:] 开始执行用例： PC前台用户登录 ( test_web_user_login_01_1 )
+INFO     2020-07-10 02:19:09 Api_Web_User_Login_Case.py line:[29:] ======================调用：用户登录接口=======================
+INFO     2020-07-10 02:19:09 http_requests.py     line:[105:] 获取接口模板信息 ：  
+{
+    "url": "/Home/login",
+    "method": "post",
+    "is_sing": "no",
+    "api_type": "WEB",
+    "headers": {},
+    "body": {
+        "username": "ttttt",
+        "password": "8196658ecaeceb870d0ad3053dd579d2",
+        "validateCode": ""
+    }
+}
+INFO     2020-07-10 02:19:09 http_requests.py     line:[64:] 调用： 前台相关.用户登录
+INFO     2020-07-10 02:19:09 http_requests.py     line:[179:] 请求url： http://gshcapi.add177.com/Home/login
+INFO     2020-07-10 02:19:09 http_requests.py     line:[180:] 请求消息体： 
+{
+    "username": "ttt1",
+    "password": "8196658ecaeceb870d0ad3053dd579d2",
+    "validateCode": ""
+}
+INFO     2020-07-10 02:19:10 http_requests.py     line:[195:] 请求返回码 ： 404
+INFO     2020-07-10 02:19:10 http_requests.py     line:[196:] 请求返回体 ： 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The resource cannot be found.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>The resource cannot be found.</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>HTTP 404. The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable. &nbsp;Please review the following URL and make sure that it is spelled correctly.
+            <br><br>
+
+            <b> Requested URL: </b>/Home/login<br><br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.7.3429.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[HttpException]: A public action method &#39;login&#39; was not found on controller &#39;OfficialReceptionAPI.Controllers.HomeController&#39;.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--><!-- 
+This error page might contain sensitive information because ASP.NET is configured to show verbose error messages using &lt;customErrors mode="Off"/&gt;. Consider using &lt;customErrors mode="On"/&gt; or &lt;customErrors mode="RemoteOnly"/&gt; in production environments.-->
+INFO     2020-07-10 02:21:21 Api_Web_User_Login_Case.py line:[21:] 启动脚本文件 :  Api_Web_User_Login_Case.py
+INFO     2020-07-10 02:21:21 Api_Web_User_Login_Case.py line:[28:] 开始执行用例： PC前台用户登录 ( test_web_user_login_01_1 )
+INFO     2020-07-10 02:21:21 Api_Web_User_Login_Case.py line:[29:] ======================调用：用户登录接口=======================
+INFO     2020-07-10 02:21:21 http_requests.py     line:[105:] 获取接口模板信息 ：  
+{
+    "url": "/Home/login",
+    "method": "post",
+    "is_sing": "no",
+    "api_type": "WEB",
+    "headers": {},
+    "body": {
+        "username": "ttttt",
+        "password": "8196658ecaeceb870d0ad3053dd579d2",
+        "validateCode": ""
+    }
+}
+INFO     2020-07-10 02:21:21 http_requests.py     line:[64:] 调用： 前台相关.用户登录
+INFO     2020-07-10 02:21:21 http_requests.py     line:[184:] 请求url： http://gshcapi.add177.com/Home/login
+INFO     2020-07-10 02:21:21 http_requests.py     line:[185:] 请求消息体： 
+{
+    "username": "ttt1",
+    "password": "8196658ecaeceb870d0ad3053dd579d2",
+    "validateCode": ""
+}
+INFO     2020-07-10 02:21:21 http_requests.py     line:[200:] 请求返回码 ： 404
+INFO     2020-07-10 02:21:21 http_requests.py     line:[201:] 请求返回体 ： 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The resource cannot be found.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>The resource cannot be found.</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>HTTP 404. The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable. &nbsp;Please review the following URL and make sure that it is spelled correctly.
+            <br><br>
+
+            <b> Requested URL: </b>/Home/login<br><br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.7.3429.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[HttpException]: A public action method &#39;login&#39; was not found on controller &#39;OfficialReceptionAPI.Controllers.HomeController&#39;.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<>c.<BeginExecuteCore>b__152_1(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c.<BeginProcessRequest>b__20_1(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--><!-- 
+This error page might contain sensitive information because ASP.NET is configured to show verbose error messages using &lt;customErrors mode="Off"/&gt;. Consider using &lt;customErrors mode="On"/&gt; or &lt;customErrors mode="RemoteOnly"/&gt; in production environments.-->
