@@ -61,8 +61,8 @@ def get_nowday_and_yestday():
     '''
     now = datetime.datetime.now()
     yes = now + datetime.timedelta(days=-1)
-    now = now.strftime("%Y-%m-%d %H:%M:%S")
-    yes = yes.strftime("%Y-%m-%d %H:%M:%S")
+    now = now.strftime("%Y-%m-%d {}:{}:{}".format('02','00','00'))
+    yes = yes.strftime("%Y-%m-%d {}:{}:{}".format('02','00','00'))
     return now,yes
 
 if __name__ == '__main__':
@@ -77,4 +77,8 @@ if __name__ == '__main__':
     # s_time = '2020/07/02 01:44:20'
     # en_time = '2020/07/02 01:44:53'
     # print(count_datatime(s_time,en_time,type='secods'))
-    print(get_time_stamp(level=1))
+    #print(get_time_stamp(level=1))
+    #print(get_nowday_and_yestday())
+    # get_nowday_and_yestday()[1]
+    print(get_now_time())
+    print(type(get_now_time()))

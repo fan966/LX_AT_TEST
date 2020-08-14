@@ -329,21 +329,21 @@ if __name__ == '__main__':
    set_log()
    #print(get_officia_gam_bet_data(return_all_data=True))
    #print(from_game_id_get_game_info(51))
-   data = get_credit_gam_bet_data(return_all_data=True)
-   print(data)
-   orderlist = []
-   orderlist1 = []
-   gamelist = []
-   for game_data in data:
-      orderdata = {"amount": 301, "goal": str(game_data[0]), "id": game_data[0], "name": game_data[1], "odds": 43.61,"odds1": -1.0, "parentName": "特码", "sId": game_data[2], "timestamp": get_time_stamp()}
-      gamelist.append(orderdata)
-   for i in range(0,48):
-      orderlist.append(gamelist[i])
-   print(orderlist)
-   for i in range(48,49):
-      orderlist1.append(gamelist[i])
-   orderlist1[0].update({"amount":300})
-   print(orderlist1)
-
+   # data = get_credit_gam_bet_data(return_all_data=True)
+   # print(data)
+   # orderlist = []
+   # orderlist1 = []
+   # gamelist = []
+   # for game_data in data:
+   #    orderdata = {"amount": 301, "goal": str(game_data[0]), "id": game_data[0], "name": game_data[1], "odds": 43.61,"odds1": -1.0, "parentName": "特码", "sId": game_data[2], "timestamp": get_time_stamp()}
+   #    gamelist.append(orderdata)
+   # for i in range(0,48):
+   #    orderlist.append(gamelist[i])
+   # print(orderlist)
+   # for i in range(48,49):
+   #    orderlist1.append(gamelist[i])
+   # orderlist1[0].update({"amount":300})
+   # print(orderlist1)
+   get_officia_gam_bet_data(game_id=612)
 
 

@@ -8,7 +8,7 @@ import hashlib
 import logging
 import json
 from Libs.common import *
-def http_api_requests(interface_name,server_host = Config().ag_api_host,**replace_params):
+def http_api_requests(interface_name,return_result = True,server_host = Config().ag_api_host,**replace_params):
     '''
     发送api请求
     :param interface_name: 接口模板匹配名称 如：登录注册.获取全局Token值
@@ -30,6 +30,7 @@ def http_api_requests(interface_name,server_host = Config().ag_api_host,**replac
     headers =  interface_temp['headers']
     cookies = {}
     body = interface_temp['body']
+    is_encode = interface_temp['is_encode']
 
 
     if 'Headers' in replace_params:
@@ -51,9 +52,16 @@ def http_api_requests(interface_name,server_host = Config().ag_api_host,**replac
         body = {'param':json.dumps(body)} if body else {}
     elif api_type == 'WEB':
         pass
+    elif api_type == 'AG':
+        pass
+        #body = json.dumps(body) if body else {}
     else:
         body = json_convert_to_key_value(body) if body else {}  # 键值对
         headers.update({'Content-Type': 'application/x-www-form-urlencoded'})
+    # 判断接口传参是否需要转码
+    encode = True
+    if '后台相关添加账户' == is_encode:
+        encode = True
 
     # 请求重试机制
     for retry_num in range(Config().requests_retry_num):
@@ -61,7 +69,7 @@ def http_api_requests(interface_name,server_host = Config().ag_api_host,**replac
             logging.error('接口连续请求次数超过限制，请检查系统.....')
             raise ('接口连续请求次数超过限制，请检查系统.....')
         logging.info('调用： ' + interface_name)
-        res_msg,http_res = base_requests_actions(url,method,body,headers=headers,cookies=cookies)
+        res_msg,http_res = base_requests_actions(url,method,body,headers=headers,cookies=cookies,encode=encode)
 
     # 判断url地址内是否附带Image 之类的图片请求字符，将接口返回的图片流保存为图片
     if "ImageCode" in url:
@@ -69,7 +77,10 @@ def http_api_requests(interface_name,server_host = Config().ag_api_host,**replac
         from io import BytesIO
         image = Image.open(BytesIO(http_res.content))
         image.save('randomImageCode.bmp')
-    return res_msg
+    if return_result:
+        return res_msg
+    else:
+        return http_res
 
 
 
@@ -93,8 +104,8 @@ def get_interface_info_from_excel(interface_name):
             if interface['ModuleName'] == ModuleName and interface['InterfaceName'] == InterfaceName:
                 #logging.info('获取匹配接口模板 ： ' + interface_info)
 
-
                 interface_temp = {
+                    "is_encode":interface['ModuleName']+interface['InterfaceName'],
                     "url":interface['URL'],
                     "method":interface['Method'],
                     "is_sing":interface['IsSign'],
@@ -173,19 +184,22 @@ def gen_common_sign(data):
 
     return data
 
-def base_requests_actions(url,method,body=None,  headers=None, cookies=None):
-
+def base_requests_actions(url,method,body=None,  headers=None, cookies=None,encode=True):
 
     try:
+        if encode:
+            pass
+        else:
+            # 接口数据转码
+            body = json.dumps(body)
+            body = body.encode('utf-8')
+
         logging.info('请求url： ' + url)
         logging.info('请求消息体： ' + '\n' + json.dumps(body,ensure_ascii=False, indent=4))
-        if method == 'get':
+        if method == 'GET':
             http_res = requests.get(url,params=body,headers=headers,cookies=cookies,verify=False)
-            #print(http_res)
-        elif method == 'post':
-
+        elif method == 'POST':
             http_res = requests.post(url=url,data=body,headers=headers,cookies=cookies,verify=False)
-
         else:
             logging.error('请求方法有误，请确认接口请求方式')
         if 'application/json' in http_res.headers['Content-Type']:

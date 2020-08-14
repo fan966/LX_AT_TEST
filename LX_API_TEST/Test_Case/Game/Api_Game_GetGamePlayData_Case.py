@@ -72,5 +72,7 @@ class Api_Game_GetCPYXGameList(unittest.TestCase):
         pass
 
 if __name__ == '__main__':
+    set_log()
     unittest.main()
     # [{"i":21044,"c":"01|02|03","n":1,"t":1,"k":0,"m":1,"a":2,"ts":1593927523}]
+    # {"orderNumber":"45308102348429170002","amount":200,"userBankId":44,"CompanyCardId":133860,"date":"2020/08/10 19:49:21","way":"","realName":"Qq","place":"","bankId":133860,"choicePre":true,"CardNo":"15154512784","_":1597074569436}

@@ -19,6 +19,7 @@ class Api_User_AddAccount_Case_01(unittest.TestCase):
     datas = get_case_from_excel(Config().case_data_file_path,['User'],run_rules_dic,'User')
 
 
+
     def setUp(self):
         logging.info('已经启动脚本文件： {}.py'.format(self.__module__))
         self.account = Config().get_ini_value('Global_ini','WebUserName')
@@ -52,4 +53,5 @@ class Api_User_AddAccount_Case_01(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    set_log()
     unittest.main()

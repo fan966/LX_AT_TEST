@@ -52,7 +52,7 @@ class Config(object):
         self.api_type = self.Global.getint('Global_ini','Api_Type')
         self.config_sections_list = self.C.sections()
         self.db_config_name = self.C.get(self.config_sections_list[self.api_type],'env_db_cfg_item')
-        self.ag_host = self.C.get(self.config_sections_list[self.api_type],'ag_host')
+        self.ag_host = self.C.get(self.config_sections_list[self.api_type],'ag_host') # 对应环境api后台地址
         self.ag_api_host = self.C.get(self.config_sections_list[self.api_type],'api_host') # 对应环境api前台地址
         self.ag_account = self.C.get(self.config_sections_list[self.api_type],'FAcount')
         self.key = self.C.get(self.config_sections_list[self.api_type],'key')

@@ -8,20 +8,20 @@ from Libs.http_requests import *
 from Config.Config import *
 import logging
 from Libs.Db_Sql_Util import *
-import re
-url = 'http://gshcweb.add177.com/Home/login'
-datas = {
-    "username":"ttt1",
-    "password":md5_encryption(md5_encryption('aaaa2222')),
-    "validateCode":""
-}
-
-res = requests.post(url=url,data=datas,verify=False)
-res = res.headers
-print(res['Set-Cookie'])
-str1 = res['Set-Cookie']
-p =re.compile('LoginSessionID=.*;',re.I)
-print(p.findall(str1)[0].replace(';',''))
+# import re
+# url = 'http://gshcweb.add177.com/Home/login'
+# datas = {
+#     "username":"ttt1",
+#     "password":md5_encryption(md5_encryption('aaaa2222')),
+#     "validateCode":""
+# }
+#
+# res = requests.post(url=url,data=datas,verify=False)
+# res = res.headers
+# print(res['Set-Cookie'])
+# str1 = res['Set-Cookie']
+# p =re.compile('LoginSessionID=.*;',re.I)
+# print(p.findall(str1)[0].replace(';',''))
 #print([p.findall(str1)][0].replace(';',''))
 
 

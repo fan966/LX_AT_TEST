@@ -34,7 +34,7 @@ class Api_TestWeb_AddAccount(unittest.TestCase):
         logging.info('======================调用：代理注册接口=======================')
         self.actual_result = http_api_requests('前台相关.代理注册',Headers={"LoginSessionID":LoginSessionID},NewVerifParmsData=datas['NewVerifParmsData'])
         self.expected_result = datas['ExpectResult']
-        print(datas['NewVerifParmsData'])
+
         result = None
         try:
             check_result(self.expected_result, self.actual_result)

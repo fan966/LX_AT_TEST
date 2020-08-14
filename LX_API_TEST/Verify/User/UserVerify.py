@@ -3,11 +3,11 @@
 from Libs.http_requests import *
 from Config.Config import *
 import logging
+from Libs.log_util import set_log
 from Libs.Db_Sql_Util import *
 '''
 用户通用前置检查
 '''
-
 def login_api(account,password):
     """
     用户登录公告接口
@@ -32,6 +32,24 @@ def login_api(account,password):
     else:
         LoginSessionID = get_json_value(res_msg,'/Data/LoginSessionID')
         return LoginSessionID
+
+def ag_login_api(account,password):
+    '''
+    后台登录通用接口
+    :param account:
+    :param password:
+    :return:
+    '''
+    import re
+    logging.info('======================调用：用户登录接口=======================')
+    res_msg = http_api_requests('后台相关.用户登录',server_host=Config().ag_host,return_result=False,NewVerifParmsData={"username": account,"password":md5_encryption(md5_encryption(password))})
+    str1 = res_msg.request.headers['Cookie']
+    p = re.compile('LoginSessionID=.*; ', re.I)
+    LoginSessionID = p.findall(str1)[0].split(';')[0].split('=')[1]
+    if not LoginSessionID:
+        logging.error('后台登录失败，请检查')
+    return LoginSessionID
+
 
 def from_db_get_user_ID(username):
     '''
@@ -61,5 +79,8 @@ def from_db_TCredits_get_user_FBalance(FUserID):
 
 
 if __name__ == '__main__':
-    data = from_db_get_user_ID('ttt11')
-    print(data[0]['id'])
+    # data = from_db_get_user_ID('ttt11')
+    # print(data[0]['id'])
+    set_log()
+    temp = ag_login_api('qazwsx2','aaaa2222')
+    print(temp)

@@ -53,4 +53,5 @@ class Api_User_Mod_UpdatewithdrawPwd(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    set_log()
     unittest.main()

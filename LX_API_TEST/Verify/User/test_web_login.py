@@ -216,7 +216,7 @@ def login(account,password):
     :param password: 密码 aaaa2222
     """
 
-    logging.info('======================调用：用户登录接口=======================')
+
     logging.info('======================调用：用户登录接口=======================')
     sactual_result,http_res = http_api_web_test('前台相关.用户登录', NewVerifParmsData={"username":account,"password": md5_encryption(md5_encryption(password))})
     LoginSessionID = get_web_login_id(http_res)

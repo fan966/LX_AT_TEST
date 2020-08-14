@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="896321a5-cb6f-470c-9270-81400457307f" name="Default Changelist" comment="" />
+    <list default="true" id="896321a5-cb6f-470c-9270-81400457307f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Config/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Config/Config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Data/Case_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Data/Case_data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Data/Interface_info.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Data/Interface_info.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Data/Test_Case.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Data/Test_Case.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Libs/Time_Util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Libs/Time_Util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Libs/http_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Libs/http_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Report/html_report/html_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Report/html_report/html_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/Game/Api_Game_GetGameOddsData_Case.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/Game/Api_Game_GetGameOddsData_Case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/Game/Api_Game_GetGamePlayData_Case.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/Game/Api_Game_GetGamePlayData_Case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/User/Api_User_AddAccount_Case.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/User/Api_User_AddAccount_Case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/User/Api_User_Mod_UpdateWithdrawalPwd_Case001.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/User/Api_User_Mod_UpdateWithdrawalPwd_Case001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/lx_test_haocai_api/Api_TestWeb_AddAccount_Case.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/lx_test_haocai_api/Api_TestWeb_AddAccount_Case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/lx_test_haocai_api/hc_test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Test_Case/lx_test_haocai_api/hc_test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Verify/Game/GameVerify.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Verify/Game/GameVerify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Verify/User/UserVerify.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Verify/User/UserVerify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/Verify/User/test_web_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/Verify/User/test_web_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LX_API_TEST/study/dict_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LX_API_TEST/study/dict_test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +41,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/LX_API_TEST" />
+    <property name="last_opened_file_path" value="E:/HC_API_test" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -324,6 +343,9 @@
       <workItem from="1591199641569" duration="4854000" />
       <workItem from="1591614535527" duration="10871000" />
       <workItem from="1592237544504" duration="3225000" />
+      <workItem from="1594654110211" duration="1233000" />
+      <workItem from="1594914401785" duration="599000" />
+      <workItem from="1596038836597" duration="812000" />
     </task>
     <servers />
   </component>

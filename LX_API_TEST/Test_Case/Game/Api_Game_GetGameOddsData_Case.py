@@ -21,7 +21,6 @@ class Api_Game_GetGameOddsData_01(unittest.TestCase):
 
     run_rules_dic = Config().get_run_rules_config()
     run_rules_dic.update({'ScriptName': os.path.basename(__file__)})
-    print(run_rules_dic)
     datas = get_case_from_excel(Config().case_data_file_path, ['Game'], run_rules_dic, 'Game')
 
     def setUp(self):
