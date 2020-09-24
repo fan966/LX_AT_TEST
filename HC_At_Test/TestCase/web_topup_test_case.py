@@ -33,7 +33,7 @@ class WebTopUpTestCase(unittest.TestCase):
     def tearDownClass(cls):
         WebDriver().driver_quit()
 
-    # 配置文件充值
+
     @file_data(file_path)
     @unittest.skipIf(excel_test_case(2,'test1_file_top'),'test1_file_top case is skip')
     def test1_file_top(self,data):

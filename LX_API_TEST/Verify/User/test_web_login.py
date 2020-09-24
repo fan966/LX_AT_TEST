@@ -186,10 +186,10 @@ def base_requests_actions(url,method,body=None,  headers=None, cookies=None):
     try:
         logging.info('请求url： ' + url)
         logging.info('请求消息体： ' + '\n' + json.dumps(body,ensure_ascii=False, indent=4))
-        if method == 'get':
+        if method == 'GET':
             http_res = requests.get(url,params=body,headers=headers,cookies=cookies,verify=False)
             #print(http_res)
-        elif method == 'post':
+        elif method == 'POST':
 
             http_res = requests.post(url=url,data=body,headers=headers,cookies=cookies,verify=False)
 

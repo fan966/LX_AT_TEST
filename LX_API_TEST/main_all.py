@@ -31,8 +31,6 @@ def main(argv):
 def run():
     set_log()
     logging.info('开始执行测试.......')
-    #case_file_path = Config().case_file_path
-    #suite = unittest.defaultTestLoader.discover(case_file_path,'*Case*.py')
     f = open(Config().report_path,'wb')
     runner = HTMLTestRunnerCN.HTMLTestRunner(stream=f,title='LX接口自动化测试报告',tester='Fan',description='首次报告',verbosity=2)
     all_test_case = add_case_suite()

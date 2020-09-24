@@ -1,0 +1,300 @@
+INFO     2020-09-20 16:55:34 Ag_Api_User_AddAccount_Case.py line:[19:] 启动脚本文件 :  Ag_Api_User_AddAccount_Case.py
+INFO     2020-09-20 16:55:34 Ag_Api_User_AddAccount_Case.py line:[27:] 开始执行用例： 后台相关-添加账户 ( test_AG_uesr_login_1 )
+INFO     2020-09-20 16:55:34 Ag_Api_User_AddAccount_Case.py line:[28:] =======================调用【后台用户登录】接口====================================
+INFO     2020-09-20 16:55:34 UserVerify.py        line:[44:] ======================调用：用户登录接口=======================
+INFO     2020-09-20 16:55:34 http_requests.py     line:[116:] 获取接口模板信息 ：  
+{
+    "is_encode": "后台相关用户登录",
+    "url": "/Login",
+    "method": "POST",
+    "is_sing": "no",
+    "api_type": "AG",
+    "headers": {},
+    "body": {
+        "password": "8196658ecaeceb870d0ad3053dd579d2",
+        "googlecode": "",
+        "username": "qazwsx2",
+        "validateCode": "",
+        "accountfid": ""
+    }
+}
+INFO     2020-09-20 16:55:34 http_requests.py     line:[71:] 调用： 后台相关.用户登录
+INFO     2020-09-20 16:55:34 http_requests.py     line:[197:] 请求url： http://csdqtjcag.lx901.com/Login
+INFO     2020-09-20 16:55:34 http_requests.py     line:[198:] 请求消息体： 
+{
+    "password": "8196658ecaeceb870d0ad3053dd579d2",
+    "googlecode": "",
+    "username": "qazwsx2",
+    "validateCode": "",
+    "accountfid": ""
+}
+INFO     2020-09-20 16:55:36 http_requests.py     line:[212:] 请求返回码 ： 200
+INFO     2020-09-20 16:55:36 http_requests.py     line:[213:] 请求返回体 ： 
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no">
+    <title> - 后台管理系统</title>
+    <script type="text/javascript">var SignalrSite = "http://zycccppp.websocketcdn.com:8806/signalr";</script>
+    <link href="https://demoimghttt.womenrfree.com//Content/skin1/base.css?e47440a8a3" rel="stylesheet" />
+    <link href="https://demoimghttt.womenrfree.com//Content/mapping/skin1-red/css/base.css?1e7d612c1c" rel="stylesheet" />
+    <link href="https://demoimghttt.womenrfree.com//Scripts/Lib/easyui/themes/bootstrap/easyui.css?20a92bed96" rel="stylesheet" />
+    <link href="https://demoimghttt.womenrfree.com//Scripts/Lib/easyui/themes/icon.css?01a22dbaf2" rel="stylesheet" />
+    <script src="https://demoimghttt.womenrfree.com//Scripts/Lib/jquery-1.8.3.min.js?910160a5fc"></script>
+    <script type="text/javascript" src="https://demoimghttt.womenrfree.com//Scripts/WG.Util.Common.js?32f18fcb81"></script>
+    <script type="text/javascript" src="https://demoimghttt.womenrfree.com//Scripts/Lib/easyui/jquery.easyui.min.js?16a43ecc02"></script>
+    <script type="text/javascript" src="https://demoimghttt.womenrfree.com//Scripts/WG.UI.Common.js?76934ac355"></script>
+    <script type="text/javascript" src="https://demoimghttt.womenrfree.com//Scripts/WG.UI.Base.js?13d62b7bd2"></script>
+    <script type="text/javascript" src="https://demoimghttt.womenrfree.com//Scripts/Lib/json2.min.js?49b7b9644a"></script>
+    <script type="text/javascript" src="https://demoimghttt.womenrfree.com//Scripts/jquery.signalR-2.1.1.min.js?40e112173f"></script>
+    <script type="text/javascript" src="https://demoimghttt.womenrfree.com//Scripts/WG.RegisterUser.js?b9883725a0"></script>
+
+    <style>
+        ._marquee-close{
+            display: block;
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+            position: absolute;
+            right: 8px;
+            top: -6px;
+            border-radius: 13px;
+            background: url(/Content/skin1/imgs/quxiao.png) no-repeat center center ;
+            text-align: center;
+            cursor: pointer;
+            z-index:99;
+        }
+        .panel-fit {
+            overflow: auto;
+        }
+        .top-nav .top-info .audio  i{
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            overflow: hidden;
+            background-image: url(/Content/Images/volume-ico.png);
+            background-repeat: no-repeat;
+            background-position: center 0;
+            cursor: pointer;
+        }
+        .top-nav .top-info .audio.audio-close i{
+            background-position-y:-25px;
+        }
+        .video-select{
+             overflow:hidden;
+             z-index:999;
+        }
+        .video-select:hover{
+            overflow:visible;
+        }
+        .panel-body,.layout-panel{
+            overflow:visible;
+        }
+        .back-atou{
+
+             cursor:pointer;
+        }
+        .text-marquees span{
+            margin: 0 10px;
+        }
+       .text-marquees ._mq_index , .text-marquees ._mq_title, .text-marquees ._mq_content{
+            margin: 0;
+        }
+        ._mq_index,._mq_title,._mq_content{
+            color: red !important;
+        }
+        .tree-node-last+ul>li>div>span:first-child{
+            display: none;
+        }
+    </style>
+</head>
+<body class="easyui-layout popup_wrap" style="min-width:1440px;overflow:visible;">
+    <input type="hidden" id="userId" value="585049" />
+    <input type="hidden" id="userName" value="qazwsx2" />
+    <input type="hidden" id="gradeId" value="0" />
+    <input type="hidden" id="gradeName" value="公司" />
+    <input type="hidden" id="companyId" value="535658" />
+    <input type="hidden" id="isCompany" value="1" />
+    <input type="hidden" id="isAffiliate" value="0" />
+    <input type="hidden" id="parentId" value="535658" />
+    <div class="easyui-layout popup_wrap" style="height:100%">
+        <div data-options="title:'.',region:'west',disabled:true,border:false" style="width:157px;height:570px;" id="west_left" class="west-left">
+            <div class="easyui-layout" data-options="fit:true">
+                <div data-options="region:'north'" style="height:56px;">
+                    <div id="company_logo" class="logo"></div>
+                </div>
+                <div data-options="region:'center',border:false" id="sideMenu" class="nav_box easyui-panel">
+                    <div class="menu-tree">
+                        <ul id="menuTree" data-options="animate:true"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-options="region:'center',border:false">
+            <div class="easyui-layout" data-options="fit:true">
+                <div data-options="region:'north'" style="height:56px;border:none;">
+                    <div class="top-nav">
+                        <div class="top-info">
+
+                                                            <span id="PaymentOfPayment" class="select-box PaymentOfPayment-box"><a href="JavaScript:showPayment()" title="点击查看详细"><label style="margin-left:5px;cursor:pointer;">付款缴费</label></a></span>
+                            <span id="onlineCount" class="onlineCount" style="display:none;width:auto;"><a href="javascript:showOnline();" title="点击查看详细"><label style="margin-left:5px;cursor:pointer;"><span class="txt-red"></span><br />在线人数</label></a></span>
+                            <span id="dayMaxOnline" class="maxOnline" style="display:none;width:auto;"><a href="javascript:showHightestOnline();" title="今日最高！点击查看历史"><label style="margin-left:5px;cursor:pointer;"><span class="txt-green"></span><br />最高在线</label></a></span>
+                            <span id="DepositCount" style="width:auto;display:none;"><a href="javascript:showDeposit();" title="点击查看详细"><label style="cursor:pointer;"><span class="txt-red">0</span><br />公司入款申请</label></a></span>
+                            <span id="OnlinePayCount" style="width:auto;display:none;"><a href="javascript:showOnlinePay();" title="点击查看详细"><label style="cursor:pointer;"><span class="txt-red">0</span><br />线上入款申请</label></a></span>
+                            <span id="EncashmentCount" style="width:auto;display:none;"><a href="javascript:showEncashment();" title="点击查看详细"><label style="cursor:pointer;"><span class="txt-red">0</span><br />风控审核</label></a></span>
+                            <span id="EncashmentCheckCount" style="width:auto;display:none;"><a href="javascript:showEncashmentCheck();" title="点击查看详细"><label style="margin-left:5px;cursor:pointer;"><span class="txt-red">0</span><br />出款审核</label></a></span>
+                            
+
+
+                            <span style="display:none;" id="OpenResult" class="select-box open-box"><a href="javascript:void(0);">开奖结果</a></span>
+                            <span class="select-box live-box"><a href="/Live" target="_blank">现场直播</a></span>
+                            
+
+
+                            <div class="user_wrap">
+                                <div class="user_name">
+                                    <span>公司</span>
+                                    <span>qazwsx2</span>
+                                </div>
+                            </div>
+                            <span><a href="javascript:;" id="logout"></a> </span>
+                        </div>
+                    </div>
+                </div>
+                <div data-options="region:'center',disabled:true,border:false" id="tabBar">
+                    <div title="统计">
+                        <iframe scrolling="no" frameborder="0" src="" class="tabBar_iframe" name="MainPart"></iframe>
+                    </div>
+                </div>
+                <div data-options="region:'south',border:false">
+                    <div style="height: 30px; width: 100%; border-top: 1px, solid #cecece;">
+                        <span class="_marquee-close"></span>
+                        <div class="text-marquees" id="TextMarquees" style="margin:0 15px 0 0px;height:30px;line-height:30px;">
+                            <div style="padding:0 3px;color:red;"></div>
+                        </div>
+                    </div>
+                </div>
+                    <div data-options="region:'south',border:false" id="TextMarqueesWrap2" style="display:none;z-index:9999;position:relative;top:20px">
+                        <div style="height: 30px; width: 100%; border-top: 1px, solid #cecece;">
+                            <div class="text-marquees" id="TextMarquees2" style="margin:0 15px 0 0px;height:30px;line-height:30px;">
+                                <div style="padding:0 3px;color:red;"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+        <div id="popupMask" class="popup-mask"></div>
+        
+        <div id="companyNoticeRoot" class="popup-company-notice" style="top:2000px;">
+            <div class="pop-header">
+                <span class="title">系统公告</span>
+                <a href="javascript:;" class="close">X</a>
+            </div>
+            <div class="pop-content">
+                <div class="container-titile">
+                    
+                </div>
+                <div class="container-content">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var treeData = '[{"id":"1","text":"游戏设置","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"4008","text":"游戏管理","tabid":"a1","hierarchy":"1","url":"/AccountGameMg/Index"},{"id":"4011","text":"游戏封锁停押","tabid":"a1","hierarchy":"1","url":"/DefaultOdds/BlockadeSetting"},{"id":"4005","text":"初始限额设置","tabid":"a1","hierarchy":"1","url":"/BaseLimits/Index"},{"id":"4002","text":"自动降赔设置","tabid":"a1","hierarchy":"1","url":"/AutoOddsSetting/Index"},{"id":"1005","text":"游戏限额","tabid":"a1","hierarchy":"1","url":"/AccountData/LimitsList"},{"id":"1006","text":"彩种信息","tabid":"a1","hierarchy":"1","url":"/AccountData/GameInformation"},{"id":"40006","text":"游戏参数设置","tabid":"a1","hierarchy":"1","url":"/GameManager/GameParamManage"},{"id":"40007","text":"微投机器人设定","tabid":"a1","hierarchy":"1","url":"/Robot/Index"},{"id":"40008","text":"游戏分类","tabid":"a1","hierarchy":"1","url":"/GameManager/CompanyCategory"}]},{"id":"3","text":"账户管理","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"11007","text":"用户管理","tabid":"a3","hierarchy":"1","url":"/Account/Index","state":"closed","children":[{"id":"110070","text":"用户管理","tabid":"a11007","hierarchy":"2","url":"/Account/Index","state":"closed","children":[{"id":"1100701","text":"前台用户资料修改","tabid":"a110070","hierarchy":"3","url":""},{"id":"1100702","text":"代理转移","tabid":"a110070","hierarchy":"3","url":""},{"id":"1100703","text":"真实姓名修改","tabid":"a110070","hierarchy":"3","url":""},{"id":"1100704","text":"解绑手机","tabid":"a110070","hierarchy":"3","url":""}]},{"id":"1003","text":"登录密码修改审核","tabid":"a11007","hierarchy":"2","url":"/Account/AccountByFinanceParamsList"},{"id":"1008","text":"资金密码修改审核","tabid":"a11007","hierarchy":"2","url":"/Account/CapitalPasswordAudit"},{"id":"4015","text":"默认配额管理","tabid":"a11007","hierarchy":"2","url":"/SystemConfig/DefaultQuotaConfig"},{"id":"4021","text":"专属域名","tabid":"a11007","hierarchy":"2","url":"/VipLink/Index"},{"id":"1013","text":"用户参数设置","tabid":"a11007","hierarchy":"2","url":"/Account/AccountParamManage"},{"id":"1007","text":"用户密保管理","tabid":"a11007","hierarchy":"2","url":"/Account/SecuritySettingList"},{"id":"1009","text":"密保修改审核","tabid":"a11007","hierarchy":"2","url":"/Account/SecurityAuditList"}]},{"id":"2007","text":"银行卡管理","tabid":"a3","hierarchy":"1","url":"/Finance/BankCardsAudit","state":"closed","children":[{"id":"20070","text":"银行卡管理","tabid":"a2007","hierarchy":"2","url":"/Finance/BankCardsAudit"},{"id":"20071","text":"银行卡参数设定","tabid":"a2007","hierarchy":"2","url":"/Finance/BankParamManage"},{"id":"3014","text":"银行卡黑名单","tabid":"a2007","hierarchy":"2","url":"/DepositAccount/BlackList"}]},{"id":"1011","text":"推广管理","tabid":"a3","hierarchy":"1","url":"/Account/AccountGeneralize","state":"closed","children":[{"id":"10110","text":"推广管理","tabid":"a1011","hierarchy":"2","url":"/Account/AccountGeneralize"},{"id":"10111","text":"推广注册参数设定","tabid":"a1011","hierarchy":"2","url":"/Account/GeneralizeParamManage"},{"id":"1012","text":"微信推广列表","tabid":"a1011","hierarchy":"2","url":"/Account/WetChats"}]},{"id":"3005","text":"会员层级","tabid":"a3","hierarchy":"1","url":"/MemberGroup/Index"},{"id":"1004","text":"个人资料","tabid":"a3","hierarchy":"1","url":"/AccountData/Index"},{"id":"10055","text":"导出管理","tabid":"a3","hierarchy":"1","url":"/AccountData/ReportDownLoadInfo"},{"id":"10057","text":"用户等级","tabid":"a3","hierarchy":"1","url":"/VipSetting/Basic_New","state":"closed","children":[{"id":"100571","text":"用户奖励参数设定","tabid":"a10057","hierarchy":"2","url":"/VipSetting/Basic_New"},{"id":"100572","text":"VIP等级设定","tabid":"a10057","hierarchy":"2","url":"/VipSetting/Level_New"},{"id":"100573","text":"会员等级报表","tabid":"a10057","hierarchy":"2","url":"/VipSetting/MemberReport_New"},{"id":"100574","text":"用户成长值变动记录","tabid":"a10057","hierarchy":"2","url":"/VipSetting/UserIntegralRecord"}]},{"id":"10058","text":"账号转移统计","tabid":"a3","hierarchy":"1","url":"/AccountData/transferlist"}]},{"id":"4","text":"财务管理","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"2001","text":"人工存取款","tabid":"a4","hierarchy":"1","url":"/Finance/ArtificialRechargeEncashment","state":"closed","children":[{"id":"200101","text":"存款与取款","tabid":"a2001","hierarchy":"2","url":"/Finance/ArtificialRechargeEncashment"},{"id":"200102","text":"批量存款","tabid":"a2001","hierarchy":"2","url":"/Finance/HandBatch"},{"id":"200105","text":"批量存款(导入)","tabid":"a2001","hierarchy":"2","url":"/Finance/HandBatchImport"},{"id":"200103","text":"历史查询","tabid":"a2001","hierarchy":"2","url":"/Finance/HandRecords"},{"id":"200104","text":"人工存入设定","tabid":"a2001","hierarchy":"2","url":"/Finance/ArtificialRechargeEncashmentConfig"}]},{"id":"2002","text":"出入款总汇","tabid":"a4","hierarchy":"1","url":"/Finance/Index"},{"id":"2003","text":"公司入款","tabid":"a4","hierarchy":"1","url":"/Finance/RechargeCheck"},{"id":"2004","text":"线上入款","tabid":"a4","hierarchy":"1","url":"/Finance/OnlineRecharge?agent=0"},{"id":"2005","text":"出款审核","tabid":"a4","hierarchy":"1","url":"/Finance/EncashmentCheck"},{"id":"3010","text":"出入款管理","tabid":"a4","hierarchy":"1","url":"/Finance/Settings"},{"id":"2006","text":"流水稽核审查","tabid":"a4","hierarchy":"1","url":"/Finance/ImmediateAudit"},{"id":"2008","text":"人工存取款审核","tabid":"a4","hierarchy":"1","url":"/Finance/ArtificialAuditPage"},{"id":"4012","text":"在线支付管理","tabid":"a4","hierarchy":"1","url":"/PaymentManager/PaymentInfo"},{"id":"4014","text":"入款账户管理","tabid":"a4","hierarchy":"1","url":"/DepositAccount/Index"},{"id":"4001","text":"自动转账","tabid":"a4","hierarchy":"1","url":"/AutoTransfer/CnIndex"},{"id":"20021","text":"AutoTransfer","tabid":"a4","hierarchy":"1","url":"/AutoTransfer/EnIndex"},{"id":"20031","text":"Load with Transfer","tabid":"a4","hierarchy":"1","url":"/Finance/RechargeCheck?IsEng=1"},{"id":"20041","text":"Load with Thirdpart","tabid":"a4","hierarchy":"1","url":"/Finance/OnlineRecharge?IsEng=1"},{"id":"20051","text":"Withdraw","tabid":"a4","hierarchy":"1","url":"/Finance/EncashmentCheck?IsEng=1"}]},{"id":"5","text":"运营风控","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"140030","text":"风控审核","tabid":"a5","hierarchy":"1","url":"/Finance/RiskControlCheck"},{"id":"10001","text":"注单管理","tabid":"a5","hierarchy":"2","url":"/OrderManager/Index","state":"closed","children":[{"id":"100010","text":"注单管理","tabid":"a10001","hierarchy":"3","url":"/OrderManager/Index"},{"id":"10002","text":"追号注单","tabid":"a10001","hierarchy":"3","url":"/OrderManager/Track"},{"id":"4020","text":"注单额外返点","tabid":"a10001","hierarchy":"3","url":"/OrderBack/ExtraRebates"},{"id":"4022","text":"自营彩注单管理","tabid":"a10001","hierarchy":"3","url":"/OrderManager/OrderAutotrophyView"},{"id":"100020","text":"VR彩管理","tabid":"a10001","hierarchy":"3","url":"/OrderManager/VROrderIndex"}]},{"id":"14001","text":"规则帮助","tabid":"a5","hierarchy":"1","url":"/Rule/Rule","state":"closed","children":[{"id":"140010","text":"规则帮助","tabid":"a14001","hierarchy":"2","url":"/Rule/Rule"},{"id":"14002","text":"帮助管理","tabid":"a14001","hierarchy":"2","url":"/GameHelp/Index"}]},{"id":"14007","text":"手机验证管理","tabid":"a5","hierarchy":"1","url":"/Risk/PhoneCodeManage","state":"closed","children":[{"id":"1400701","text":"手机验证码管理","tabid":"a14007","hierarchy":"2","url":"/Risk/PhoneCodeManage"},{"id":"1400702","text":"手机号验证","tabid":"a14007","hierarchy":"2","url":"/ActivesManage/PhoneNoCheck"}]}]},{"id":"6","text":"公告管理","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"13003","text":"系统公告","tabid":"a6","hierarchy":"1","url":"/Notice/Index"},{"id":"13006","text":"首页轮播图","tabid":"a6","hierarchy":"1","url":"/Notice/HomePageImageManage"},{"id":"13004","text":"会员消息","tabid":"a6","hierarchy":"1","url":"/Message/Index"},{"id":"13005","text":"资讯管理","tabid":"a6","hierarchy":"1","url":"/Information/Index"},{"id":"13007","text":"排行榜管理","tabid":"a6","hierarchy":"1","url":"/RanKing/Index"},{"id":"13008","text":"新闻管理","tabid":"a6","hierarchy":"1","url":"/News/Index"},{"id":"13009","text":"猜你喜欢","tabid":"a6","hierarchy":"1","url":"/Notice/GuessLike"}]},{"id":"8","text":"操盘管理","tabid":"a0","hierarchy":"0","url":"/Trader/Index"},{"id":"7","text":"即时注单","tabid":"a0","hierarchy":"0","url":"/InstantInjectionOfSingle/Index"},{"id":"13","text":"佣金系统","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"3009","text":"佣金系统","tabid":"a13","hierarchy":"1","url":"/CommissionSystem/CommissionRebateConfigList","state":"closed","children":[{"id":"13011","text":"佣金设置管理","tabid":"a3009","hierarchy":"2","url":"/CommissionSystem/CommissionRebateConfigList"},{"id":"13012","text":"消费佣金设置","tabid":"a3009","hierarchy":"2","url":"/CommissionSystem/ConsumeRebateConfig"},{"id":"13013","text":"亏损佣金设置","tabid":"a3009","hierarchy":"2","url":"/CommissionSystem/LossRebateConfig"},{"id":"13014","text":"充值佣金设置","tabid":"a3009","hierarchy":"2","url":"/CommissionSystem/RechargeRebateConfig"},{"id":"13015","text":"佣金统计列表","tabid":"a3009","hierarchy":"2","url":"/CommissionSystem/CommissionCount"},{"id":"13010","text":"推广中心","tabid":"a3009","hierarchy":"2","url":"/CommissionSystem/ConsumeRebateSpreadConfig"}]},{"id":"3007","text":"日工资管理","tabid":"a13","hierarchy":"1","url":"/DayCommission/NewSearch"},{"id":"3006","text":"分红管理","tabid":"a13","hierarchy":"1","url":"/Commission/NewSearch"},{"id":"3008","text":"全民推广","tabid":"a13","hierarchy":"1","url":"/GeneralizeSpread/GeneralizeSpreadRate","state":"closed","children":[{"id":"300801","text":"佣金查询","tabid":"a3008","hierarchy":"2","url":"/GeneralizeSpread/GeneralizeSpreadRate"},{"id":"300802","text":"分享佣金","tabid":"a3008","hierarchy":"2","url":"/GeneralizeSpread/GeneralizeShareRate"},{"id":"300803","text":"推广设置","tabid":"a3008","hierarchy":"2","url":"/GeneralizeSpread/CommissionConfiglist"},{"id":"300804","text":"分享设置","tabid":"a3008","hierarchy":"2","url":"/ShareManager/ShareConfigIndex"},{"id":"300805","text":"分享统计","tabid":"a3008","hierarchy":"2","url":"/ShareManager/ShareDetailIndex"},{"id":"300806","text":"奖励规则说明","tabid":"a3008","hierarchy":"2","url":"/GeneralizeSpread/GeneralizeExplain"}]}]},{"id":"14","text":"活动管理","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"6001","text":"活动设置","tabid":"a14","hierarchy":"1","url":"/ActivesManage/index"},{"id":"6002","text":"活动审核","tabid":"a14","hierarchy":"1","url":"/ActivesManage/Audit"},{"id":"6003","text":"活动报表","tabid":"a14","hierarchy":"1","url":"/ActivesManage/Report"},{"id":"6004","text":"优惠计算","tabid":"a14","hierarchy":"1","url":"/Preferential/Index"},{"id":"6005","text":"自定义活动","tabid":"a14","hierarchy":"1","url":"/ActivesManage/AutoIndex"}]},{"id":"10","text":"报表管理","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"5002","text":"盈亏报表","tabid":"a10","hierarchy":"1","url":"/ProfitAndLossReport/TotalReport","state":"closed","children":[{"id":"500202","text":"盈亏总览","tabid":"a5002","hierarchy":"2","url":"/ProfitAndLossReport/TotalReport"},{"id":"5002000","text":"彩票盈亏","tabid":"a5002","hierarchy":"2","url":"/ProfitAndLossReport/Report"}]},{"id":"11001","text":"运营总报表","tabid":"a10","hierarchy":"1","url":"/CashReport/Index"},{"id":"5001","text":"投注额报表","tabid":"a10","hierarchy":"1","url":"/ProfitAndLossReport/AccountOrderReport"},{"id":"5007","text":"充提报表","tabid":"a10","hierarchy":"1","url":"/CashReport/ChargeProvidedReport","state":"closed","children":[{"id":"500700","text":"充提报表","tabid":"a5007","hierarchy":"2","url":"/CashReport/ChargeProvidedReport"},{"id":"5010","text":"充提日报表","tabid":"a5007","hierarchy":"2","url":"/CashReport/ChargeProvidedSimple"},{"id":"5012","text":"在线支付统计报表","tabid":"a5007","hierarchy":"2","url":"/CashReport/PayPlatformReport"}]},{"id":"5004","text":"帐变报表","tabid":"a10","hierarchy":"1","url":"/CapitalMovements/Index"},{"id":"5009","text":"代理报表","tabid":"a10","hierarchy":"1","url":"/ProfitAndLossReport/AgentStatisticsReport"},{"id":"5019","text":"渠道报表","tabid":"a10","hierarchy":"1","url":"/CashReport/SpreadChannelReport"},{"id":"5003","text":"分析报表","tabid":"a10","hierarchy":"1","url":"/ProfitAndLossReport/SingleStageReport","state":"closed","children":[{"id":"50030","text":"单期盈亏报表","tabid":"a5003","hierarchy":"2","url":"/ProfitAndLossReport/SingleStageReport"},{"id":"500301","text":"用户存款统计","tabid":"a5003","hierarchy":"2","url":"/CashReport/Details?type=1"},{"id":"500302","text":"用户取款统计","tabid":"a5003","hierarchy":"2","url":"/CashReport/Details?type=2"},{"id":"500304","text":"用户存款优惠统计","tabid":"a5003","hierarchy":"2","url":"/CashReport/Details?type=3"},{"id":"500305","text":"代理返点统计","tabid":"a5003","hierarchy":"2","url":"/CashReport/Details?type=4"},{"id":"500306","text":"活动送码统计","tabid":"a5003","hierarchy":"2","url":"/CashReport/Details?type=5"},{"id":"500307","text":"用户余额统计","tabid":"a5003","hierarchy":"2","url":"/Account/Index?hasBalance=1"},{"id":"500308","text":"用户输赢排名","tabid":"a5003","hierarchy":"2","url":"/CapitalMovements/UserLostAndWinRanking"},{"id":"500310","text":"参与人数排序","tabid":"a5003","hierarchy":"2","url":"/CapitalMovements/UserPeriodSorting"},{"id":"500311","text":"用户打赏统计","tabid":"a5003","hierarchy":"2","url":"/OrderManager/VRRewardIndex"},{"id":"500312","text":"充值留存分析","tabid":"a5003","hierarchy":"2","url":"/CashReport/RetentionReport"},{"id":"500350","text":"首充留存分析","tabid":"a5003","hierarchy":"2","url":"/CashReport/FirstDepositRetentionReport"},{"id":"500313","text":"LTV分析报表","tabid":"a5003","hierarchy":"2","url":"/CashReport/LTVReport"},{"id":"500314","text":"注册转化率分析","tabid":"a5003","hierarchy":"2","url":"/CashReport/RegisterRetentionReport"},{"id":"500315","text":"用户流失数据统计","tabid":"a5003","hierarchy":"2","url":"/ProfitAndLossReport/CustomerLoseReport"},{"id":"500316","text":"三方充值通道统计","tabid":"a5003","hierarchy":"2","url":"/CashReport/PayChannelStatistics"}]},{"id":"5008","text":"数据统计","tabid":"a10","hierarchy":"1","url":"/ProfitAndLossReport/HomePageDataStatistics","state":"closed","children":[{"id":"500801","text":"图表呈现","tabid":"a5008","hierarchy":"2","url":"/ProfitAndLossReport/HomePageDataStatistics"},{"id":"500802","text":"概要呈现","tabid":"a5008","hierarchy":"2","url":"/ProfitAndLossReport/HomePageDataStatisticsNewVersion"}]},{"id":"5011","text":"投注量日报","tabid":"a10","hierarchy":"1","url":"/CashReport/ClassificationSimple"},{"id":"5015","text":"用户环比报表","tabid":"a10","hierarchy":"1","url":"/CashReport/AgentMoMReport"}]},{"id":"11","text":"系统管理","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"4006","text":"参数设置","tabid":"a11","hierarchy":"2","url":"/SystemConfig/Index","state":"closed","children":[{"id":"40060","text":"全局参数设置","tabid":"a4006","hierarchy":"3","url":"/SystemConfig/Index"},{"id":"40061","text":"客服设置","tabid":"a4006","hierarchy":"3","url":"/SystemConfig/OnlineServiceParamManage"},{"id":"4017","text":"二维码设置","tabid":"a4006","hierarchy":"3","url":"/QRcode/Index"},{"id":"4019","text":"在线客服设置","tabid":"a4006","hierarchy":"3","url":"/Online/OnlineKFSet"},{"id":"400620","text":"手机通栏设置","tabid":"a4006","hierarchy":"3","url":"/SystemSetting/Index"},{"id":"400700","text":"VIP充值","tabid":"a4006","hierarchy":"3","url":"/Online/ExclusiveRecharge","state":"closed","children":[{"id":"400710","text":"新增/修改","tabid":"a400700","hierarchy":"4","url":"/Online/AddEditRechargeChannel"}]},{"id":"400900","text":"VIP代理充值","tabid":"a4006","hierarchy":"3","url":"/Online/VipRecharge"}]},{"id":"11002","text":"域名管理","tabid":"a11","hierarchy":"1","url":"/SystemConfig/DomainSetting"},{"id":"11004","text":"后台角色管理","tabid":"a11","hierarchy":"1","url":"/ChildAccount/RoleIndex"},{"id":"4031","text":"银行管理","tabid":"a11","hierarchy":"1","url":"/SystemConfig/CompanyBankCard"},{"id":"4007","text":"聊天室管理","tabid":"a11","hierarchy":"1","url":"/SystemConfig/ChatRoomSetting","state":"closed","children":[{"id":"40011","text":"聊天室中奖提示设置","tabid":"a4007","hierarchy":"2","url":"/SystemConfig/ChatRoomSetting","state":"closed","children":[{"id":"4001101","text":"保存","tabid":"a40011","hierarchy":"3","url":"/SystemConfig/SaveChatRoomSetting"},{"id":"4001102","text":"删除","tabid":"a40011","hierarchy":"3","url":"/SystemConfig/DeleteChatRoomSetting"}]},{"id":"40012","text":"聊天室长龙推送设置","tabid":"a4007","hierarchy":"2","url":"/SystemConfig/ChatRoomLongDragenSetting","state":"closed","children":[{"id":"4001201","text":"保存","tabid":"a40012","hierarchy":"3","url":"/SystemConfig/SaveChatRoomLongDragenSetting"}]},{"id":"40013","text":"红包管理","tabid":"a4007","hierarchy":"2","url":"/SystemConfig/ChatRoomRedBagList","state":"closed","children":[{"id":"4001301","text":"关闭红包","tabid":"a40013","hierarchy":"2","url":"/SystemConfig/UpdateChatRoomRedBagCloseStatus"}]},{"id":"40014","text":"红包明细","tabid":"a4007","hierarchy":"2","url":"/SystemConfig/ChatRoomGrabRedBagList"},{"id":"40015","text":"聊天室设置","tabid":"a4007","hierarchy":"2","url":"/SystemConfig/ChatRoomSystemConifgSet"},{"id":"40016","text":"彩种关注管理","tabid":"a4007","hierarchy":"2","url":"/SystemConfig/ChatUserCareGameManager"},{"id":"40017","text":"开奖结果排序管理","tabid":"a4007","hierarchy":"2","url":"/SystemConfig/ChatLotteryResultOrderManager"}]}]},{"id":"12","text":"日志管理","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"12001","text":"管理员日志","tabid":"a12","hierarchy":"1","url":"/Records/AdminOperationLog"},{"id":"12002","text":"系统管理日志","tabid":"a12","hierarchy":"1","url":"/Records/ManageRecord"},{"id":"12003","text":"下注IP日志","tabid":"a12","hierarchy":"1","url":"/Records/MemberPlayGameLog"},{"id":"12004","text":"登录日志","tabid":"a12","hierarchy":"1","url":"/Records/MemberLoginLog"},{"id":"12005","text":"注册日志","tabid":"a12","hierarchy":"1","url":"/Records/RegisterLog"}]},{"id":"9","text":"开奖结果","tabid":"a0","hierarchy":"0","url":"/Result/Index"},{"id":"15000","text":"电子游戏","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"150001","text":"电子游戏-总览报表","tabid":"a15000","hierarchy":"1","url":"/ElectronicGames/OverviewReport"},{"id":"150002","text":"电子游戏-投注记录","tabid":"a15000","hierarchy":"1","url":"/ElectronicGames/BetRecord"},{"id":"150003","text":"电子游戏-盈亏报表","tabid":"a15000","hierarchy":"1","url":"/ElectronicGames/ProfitOrLossReport"},{"id":"150004","text":"电子游戏-投注额报表","tabid":"a15000","hierarchy":"1","url":"/ElectronicGames/BetAmountReport"}]},{"id":"4500","text":"体育竞技","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"4501","text":"体育竞技-注单管理","tabid":"a4500","hierarchy":"1","url":"/ThirdPartyGameReport/SportsOrderIndex"},{"id":"4502","text":"体育竞技-总览报表","tabid":"a4500","hierarchy":"1","url":"/ThirdPartyGameReport/SportsOverViewIndex"},{"id":"4503","text":"体育竞技-盈亏报表","tabid":"a4500","hierarchy":"1","url":"/ThirdPartyGameReport/SportsProfitAndLossIndex"},{"id":"4504","text":"体育竞技-投注额报表","tabid":"a4500","hierarchy":"1","url":"/ThirdPartyGameReport/SportsBetAmountReportIndex"},{"id":"4505","text":"G1交易所帐变报表","tabid":"a4500","hierarchy":"1","url":"/ThirdPartyGameReport/SportsOBGoldFlowReportIndex"}]},{"id":"16000","text":"棋牌游戏","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"160001","text":"棋牌游戏-总览报表","tabid":"a16000","hierarchy":"1","url":"/ChessCardGames/OverviewReport"},{"id":"160002","text":"棋牌游戏-投注记录","tabid":"a16000","hierarchy":"1","url":"/ChessCardGames/BetRecord"},{"id":"160003","text":"棋牌游戏-盈亏报表","tabid":"a16000","hierarchy":"1","url":"/ChessCardGames/ProfitOrLossReport"},{"id":"160004","text":"棋牌游戏-投注额报表","tabid":"a16000","hierarchy":"1","url":"/ChessCardGames/BetAmountReport"}]},{"id":"17000","text":"真人视讯","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"170001","text":"真人视讯-总览报表","tabid":"a17000","hierarchy":"1","url":"/LiveGames/OverviewReport"},{"id":"170002","text":"真人视讯-投注记录","tabid":"a17000","hierarchy":"1","url":"/LiveGames/BetRecord"},{"id":"170003","text":"真人视讯-盈亏报表","tabid":"a17000","hierarchy":"1","url":"/LiveGames/GetWinLossReportList"},{"id":"170004","text":"真人视讯-投注额报表","tabid":"a17000","hierarchy":"1","url":"/LiveGames/BetAmountReport"},{"id":"170005","text":"真人视讯-AG账变报表","tabid":"a17000","hierarchy":"1","url":"/LiveGames/MoneyChangeReport"}]},{"id":"18000","text":"三方钱包账变","tabid":"a0","hierarchy":"0","url":"","state":"closed","children":[{"id":"180001","text":"三方账变-AG账变报表","tabid":"a18000","hierarchy":"1","url":"/LiveGames/MoneyChangeReport"}]}]';
+        var isSearchOnline = 'True' === "True";
+        var frameSrc = '/ProfitAndLossReport/HomePageDataStatistics';
+        var iisPath = 'https://demoimghttt.womenrfree.com/';
+        var SupAccounts = '535658';
+        var AuthorityID = '535658';
+        var accountId = "585049";
+        var isCSAccount = "0";
+        isCSAccount = isCSAccount == '1' ? true:false;
+        var isOnlyOneTab = 'False' === 'True';
+    </script>
+    <script src="https://demoimghttt.womenrfree.com//Scripts/Admin/Index.js?f12f953eec"></script>
+</body>
+</html>
+
+INFO     2020-09-20 16:55:36 Ag_Api_User_AddAccount_Case.py line:[33:] =======================调用【后台添加账户】接口====================================
+INFO     2020-09-20 16:55:36 http_requests.py     line:[116:] 获取接口模板信息 ：  
+{
+    "is_encode": "后台相关添加账户",
+    "url": "/Account/AddAccount",
+    "method": "POST",
+    "is_sing": "no",
+    "api_type": "AG",
+    "headers": {
+        "LoginSessionID": "60c1c55d31b38b94afe4b58e93541565"
+    },
+    "body": {
+        "parentId": 535658,
+        "isAgent": true,
+        "isBet": true,
+        "isCommission": false,
+        "agentType": 2,
+        "isVisitor": false,
+        "hasContact": false,
+        "accountName": "替换参数",
+        "nickName": "tt",
+        "password": "替换参数",
+        "status": 1,
+        "odds": -1,
+        "hasUserContact": false,
+        "FTransferAccountsType": 0,
+        "UseParentOdds": false,
+        "IsTransferAccounts": 0,
+        "jsonlist": [],
+        "homeView": "haocai",
+        "agentAddBankCardConditions": "",
+        "memberAddBankCardConditions": "",
+        "UserKickbacks": []
+    }
+}
+INFO     2020-09-20 16:55:36 http_requests.py     line:[71:] 调用： 后台相关.添加账户
+INFO     2020-09-20 16:55:36 http_requests.py     line:[197:] 请求url： http://csdqtjcag.lx901.com/Account/AddAccount
+INFO     2020-09-20 16:55:36 http_requests.py     line:[198:] 请求消息体： 
+{
+    "parentId": 535658,
+    "isAgent": true,
+    "isBet": true,
+    "isCommission": false,
+    "agentType": 2,
+    "isVisitor": false,
+    "hasContact": false,
+    "accountName": "AGatuotest8937",
+    "nickName": "tt",
+    "password": "aaaa2222",
+    "status": 1,
+    "odds": -1,
+    "hasUserContact": false,
+    "FTransferAccountsType": 0,
+    "UseParentOdds": false,
+    "IsTransferAccounts": 0,
+    "jsonlist": "[{\"Key\":\"AccountRemark\",\"Title\":\"用户备注\",\"Value\":\"\"}]",
+    "homeView": "haocai",
+    "agentAddBankCardConditions": "",
+    "memberAddBankCardConditions": "",
+    "UserKickbacks": "[{\"FKickback\":0.09},{\"FKickback\":0.09},{\"FKickback\":0.09},{\"FKickback\":0.09},{\"FKickback\":0.09},{\"FKickback\":0.09},{\"FKickback\":0.09},{\"FKickback\":0.09},{\"FKickback\":0.09},{\"FKickback\":0.09},{\"FKickback\":0.09},{\"FKickback\":0.09},{\"FKickback\":0.09}]"
+}
+INFO     2020-09-20 16:55:37 http_requests.py     line:[212:] 请求返回码 ： 200
+INFO     2020-09-20 16:55:37 http_requests.py     line:[213:] 请求返回体 ： 
+{
+    "status": true,
+    "info": "新增成功",
+    "accountId": 605313
+}
+INFO     2020-09-20 16:55:37 CheckRresult_Util.py line:[87:] 预期结果:
+{
+  "status": true,
+  "info": "新增成功"
+}
+INFO     2020-09-20 16:55:37 Ag_Api_User_AddAccount_Case.py line:[45:] 新增用户（AGatuotest8937）成功
+ERROR    2020-09-20 16:55:37 excel_util.py        line:[114:] [Errno 13] Permission denied: 'E:\\web_AT_test\\LX_API_TEST\\Data\\Case_data.xlsx'
+ERROR    2020-09-20 16:55:37 excel_util.py        line:[115:] 文件写入数据报错，请检查

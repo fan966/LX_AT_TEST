@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 from Verify.User.UserVerify import *
 from Libs.Time_Util import get_time_stamp
+from Libs.CheckRresult_Util import *
+from Libs.Random_util import *
 def get_finance_paymentindex(LoginSessionID=None,return_data=True,paytype=0):
     '''
     获取充值导航通道
@@ -108,14 +110,76 @@ def FShortcutSet_amount(data):
     :return:
     '''
 
+# 提款前置数据构成方法
+def get_GetEncashment_data(LoginSessionID=None):
+    '''
+    提款基础数据获取
+    返回手续费/银行卡ID/出款设置基础数据
+    :param LoginSessionID:
+    :return:
+    '''
+    r = RandomUtil()
+    LoginSessionID = login_api(Config().get_ini_value('Global_ini', 'WebUserName'),
+                               Config().get_ini_value('Global_ini', 'WebPwd')) if not LoginSessionID else LoginSessionID
+    logging.info('=======================调用【获取提现基础数据】接口====================================')
+    actual_result = http_api_requests('充值提现.获取提现基础数据', Headers={"LoginSessionID": LoginSessionID},
+                                           NewVerifParmsData={})
+    expected_result = {"Status":True,"Info":"","Code":0}
+    check_result(expected_result, actual_result)
+    WithdrawI_data = get_json_value(actual_result, '/Data') # 获取基础出款数据
+    Charge_data = get_json_value(actual_result, '/Data/ChargeModel') # 获取手续费数据
+    BankList = get_json_value(actual_result, '/Data/BankList') # 获取银行卡ID
+    bank_card_id = []
+    for bank_data in BankList:
+        bank_card_id.append(bank_data['FID'])
+    logging.info('=======================调用【获取提现基础数据】接口====================================')
+    actual_result = http_api_requests('用户相关.获取用户基础数据', Headers={"LoginSessionID": LoginSessionID},
+                                      NewVerifParmsData={})
+    expected_result = {"Status": True, "Info": "", "Code": 0}
+    check_result(expected_result, actual_result)
+    Balance = get_json_value(actual_result, '/Data/CreditBalance') # 获取当前用户余额
+    # 行政费和优惠扣除金额和手续费
+    passRebate_amount = WithdrawI_data['TotalDeductionRebate'] # 优惠扣除金额
+    passCom_amount = WithdrawI_data['TotalDeductionAdmincharge'] # 行政费
+
+    # 构建提款余额
+    while True:
+        amount = r.get_random_int(WithdrawI_data['EncashmentMin'],WithdrawI_data['EncashmentMax'])
+        if amount > passRebate_amount + passCom_amount:
+            if amount < int(float(Balance)):
+                break
+
+    # 计算手续费
+    if passCom_amount: # 是否行政费
+        charge = 0
+    else:
+        if Charge_data['FreeChargeCount'] == 0: # 收取手续费次数
+            if Charge_data['DeductionCharge']: # 是否收取手续费
+                if Charge_data['IsPercent']:
+                    charge = amount * Charge_data['EncashmentCharge']
+                else:
+                    charge = Charge_data['EncashmentCharge']
+                if charge >= Charge_data['MaxAmount']:
+                    charge = Charge_data['MaxAmount']
+            else:
+                charge = 0
+        else:
+            charge = 0
+    return amount,charge,random.choice(bank_card_id)
+
+
+
+
+
+
 
 if __name__ == '__main__':
     set_log()
     # data = get_finance_paymentindex(return_data=False,paytype=0)
     # print(data)
-    data = payment_PreferenceNewConfig(id=0,isonline=0,return_data=False)
-    print(data)
-    print(len(data))
+    # data = payment_PreferenceNewConfig(id=0,isonline=0,return_data=False)
+    # print(data)
+    # print(len(data))
     # temp = {"FShortcutSet":"50,100,200,500,1000,2000,5000,10000,20000"}
     # print()
     # post
@@ -138,3 +202,6 @@ if __name__ == '__main__':
     # {'ID': 15, 'PayType': '企业支付宝'},
     # {'ID': 12, 'PayType': '支付宝条形码'},
     # {'ID': 199, 'PayType': '官方充值'}]
+    amount,charge,id = get_GetEncashment_data()
+    print(amount,charge,id)
+

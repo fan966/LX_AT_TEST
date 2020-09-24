@@ -54,7 +54,7 @@ class RandomUtil:
         :param max_num:
         :return:
         '''
-        num = random.randint(miu_num,max_num)
+        num = random.randint(int(miu_num),int(max_num))
         return num
     def get_random_info_int(self,item):
         '''
@@ -120,6 +120,10 @@ if __name__ == "__main__":
     # # print(r.get_random_info_str(6))
     # print(r.get_random_info_int(4))
     # print(type(r.get_random_info_int(4)))
-    temp = r.random_number_list(1,type_='')
-    print(temp)
+    # temp = r.random_number_list(1,type_='')
+    # print(temp)
+    # print(r.get_random_int(1.111,100))
+    t = "100.1254"
+    t = float(t)
+    print(int(t))
 
