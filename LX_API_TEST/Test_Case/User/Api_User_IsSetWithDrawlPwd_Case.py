@@ -4,7 +4,6 @@ import unittest
 from ddt import ddt,data
 from Libs.http_requests import *
 from Libs.data_util import *
-from Libs.common import *
 from Verify.User.UserVerify import login_api
 from Libs.CheckRresult_Util import *
 
@@ -14,10 +13,8 @@ class Api_User_IsSetWithDrawlPwd_Case(unittest.TestCase):
     # 获取全局过滤规则字典
     run_rules_dic = Config().get_run_rules_config()
     run_rules_dic.update({'ScriptName':os.path.basename(__file__)})
-
     # 获取测试数据
     datas = get_case_from_excel(Config().case_data_file_path,['User'],run_rules_dic,'User')
-
     def setUp(self):
         logging.info('已经启动脚本文件： {}.py'.format(self.__module__))
         # 获取全局用户数据

@@ -1,0 +1,562 @@
+INFO     2020-09-29 00:59:53 Lx_Ylpy_web_login.py line:[16:] =======================调用【用户登录】接口====================================
+INFO     2020-09-29 00:59:53 http_requests.py     line:[117:] 获取接口模板信息 ：  
+{
+    "is_encode": "娱乐平台前台登录",
+    "url": "/Login",
+    "method": "POST",
+    "is_sing": "no",
+    "api_type": "WEB",
+    "headers": {
+        "ASP.NET_SessionId": "453kmaiyd0flctslrmyoan0d"
+    },
+    "body": {
+        "username": "huiy07",
+        "password": "f09caad93c556216048595de602044b0",
+        "validateCode": 9999,
+        "sid": "453kmaiyd0flctslrmyoan0d"
+    }
+}
+INFO     2020-09-29 00:59:53 http_requests.py     line:[72:] 调用： 娱乐平台.前台登录
+INFO     2020-09-29 00:59:53 http_requests.py     line:[198:] 请求url： http://6rtj0qib.qaz2032.com/Login
+INFO     2020-09-29 00:59:53 http_requests.py     line:[199:] 请求消息体： 
+{
+    "username": "huiy07",
+    "password": "f09caad93c556216048595de602044b0",
+    "validateCode": "9999",
+    "sid": "453kmaiyd0flctslrmyoan0d"
+}
+INFO     2020-09-29 00:59:54 http_requests.py     line:[213:] 请求返回码 ： 200
+INFO     2020-09-29 00:59:54 http_requests.py     line:[214:] 请求返回体 ： 
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>登录</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+    <script src="http://staticweb.qaz2032.com//Scripts/Common/jquery-1.8.3.min.js"></script>
+    <script src="http://staticweb.qaz2032.com//Scripts/Common/knockout-3.2.0.js"></script>
+    <script src="http://staticweb.qaz2032.com//Scripts/Common/jquery.md5.js"></script>
+    <link href="http://staticweb.qaz2032.com//Content/mapping/skin4-1/css/login.css?_=20160829" rel="stylesheet" />
+    <script type="text/javascript">
+        var base = new Date().getTime();
+        window.loginspeed = function (e) {
+            var used = new Date() - base;
+            $(e).next().html((used > 3000 ? '超时' : used + 'ms'));
+        }
+    </script>
+</head>
+<body>
+    <div class="con_login">
+        <div class="head">
+        </div>
+        <div class="login_wrap">
+                <div class="line-wrap">
+                    <div class="w-head">会员线路选择<label style="color:yellow; font-size:12px; margin-left:10px;">备注：黄色代表您当前所在的线路</label></div>
+                    <div class="line-list">
+                        <ul>
+                                <li>
+                                    <i>1</i>
+                                    <span>
+                                        <a href="http://6rtj0qib.qaz2032.com/" target="_parent" style="color:yellow; cursor:pointer;">
+                                            线路1
+                                            <img src="http://6rtj0qib.qaz2032.com/speed.png?182590031" style="cursor:pointer; display: none;" onload="loginspeed(this)" />
+                                            <label>测速中...</label>
+                                        </a>
+                                    </span>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="login_form">
+                <div class="w-head">用户登录</div>
+                <form id="form1" action="/Login" method="post" data-bind="submit:subform" autocomplete="off">
+                    <div class="f_left">
+                        <div class="lg_tips" data-bind="text:tip"></div>
+                        <p>
+                            <span tag="tip">用户名</span><input type="text" tag="input" data-bind="textInput:uname" tabindex="1" />
+                            <input type="text" name="username" class="hide" data-bind="textInput:uname" /><i class="username"></i>
+                        </p>
+                        <p>
+                            <span tag="tip">密  码</span><input type="password" data-bind="textInput:pwd" tag="input" tabindex="2" />
+                            <input type="password" name="password" data-bind="textInput:pwd" autocomplete="off" class="hide" /><i class="password"></i>
+                        </p>
+                        <p>
+                            <span tag="tip">验证码</span><input type="text" tag="input" name="validateCode" data-bind="textInput:verify" class="code_txt" autocomplete="off" tabindex="3" /><span class="code"><img src="" alt="验证码" title="点击切换验证码" data-bind="click:changeVerify,attr:{src:url}" /></span>
+                            <input type="submit" class="login_btn" value="" tabindex="4" />
+                        </p>
+                    </div>
+                    <input type="hidden" name="sid" value="453kmaiyd0flctslrmyoan0d" />
+                </form>
+
+                <div class="browser-list">
+                    推荐使用浏览器<a href="http://rj.baidu.com/soft/detail/14744.html?ald" target="_blank"><i></i>Chrome</a><a href="http://rj.baidu.com/soft/detail/11843.html" target="_blank"><i class="f-icon"></i>Firefix</a>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <div style="position:absolute;top:0;left:0;width:100%;display:none;" id="WarnBox">
+        <div style="margin:0 auto;padding:5px 10px;width:40%;border:1px #DAB69E solid;background:#FAF6F2;color:#c15323;text-align:left;line-height:1.4;font-family:'宋体';">
+            <span></span><a href="javascript:;" class="not-again">不再提示</a>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $("[tag=input]").on({
+                focus: function () {
+                    $(this).prev().hide();
+                },
+                blur: function () {
+                    $(this).val() === "" && $(this).prev().show();
+                }
+            });
+
+            var tipText = $("form").find("[tag=tip]").on("click", function () {
+                $(this).hide().next().focus();
+            });
+
+            var vm = {
+                uname: ko.observable("huiy07"),
+                pwd: ko.observable(''),
+                verify: ko.observable(''),
+                isFocus1: ko.observable(false),
+                isFocus2: ko.observable(false),
+                isFocus3: ko.observable(false),
+                tip: ko.observable("验证码已过期，请重新输入"),
+                subform: function () {
+                    if (this.uname().length === 0) {
+                        this.tip("请输入用户名");
+                        return false;
+                    }
+                    if (this.pwd().length === 0) {
+                        this.tip("请输入密码");
+                        return false;
+                    }
+                    if (this.verify().length === 0) {
+                        this.tip("请输入验证码");
+                        return false;
+                    }
+                    var pw = $.md5(this.pwd());
+                    this.pwd($.md5(this.verify() + pw));
+                    return true;
+                },
+                changeVerify: function () {
+                    this.url('/Home/ValidateCode?t=' + (new Date() - 0))
+                },
+                url: ko.observable('/Home/ValidateCode?t=' + (new Date() - 0))
+            }
+            ko.applyBindings(vm);
+            if (vm.uname().length > 0) {
+                tipText.first().hide();
+            }
+        });
+
+        var jscookie = {
+            get: function (name) {
+                var name = name.replace('.', '\\.')
+                var reg = new RegExp(" " + name + "=[\\S^;]*", "g");
+                var arr = (" " + document.cookie + ";").match(reg);
+                if (arr === null) return null;
+                return decodeURIComponent(arr[0].replace(/^.*=/, '').slice(0, -1));
+            },
+            /// name:Cookie名称,  value:Cookie值,  expires:过期时间
+            set: function (name, value, expires, path, domain, secure) {
+                var today = new Date();
+                today.setTime(today.getTime());
+                if (expires) {
+                    expires = expires * 1000 * 60 * 60 * 24;
+                }
+                var expires_date = new Date(today.getTime() + (expires));
+                document.cookie = name + "=" + escape(value) + ((expires) ? ";expires=" +
+                    expires_date.toGMTString() : "") + ((path) ? ";path=" +
+                    path : "") + ((domain) ? ";domain=" + domain : "") +
+                    ((secure) ? ";secure" : "");
+            },
+            remove: function (name, path, domain) {
+                if (this.get(name)) {
+                    document.cookie = name + "=" + ((path) ? ";path=" + path : "") +
+                        ((domain) ? ";domain=" + domain : "") +
+                        ";expires=Thu,01-Jan-1970 00:00:01 GMT";
+                }
+                return this;
+            }
+        };
+        jscookie.remove('GAME.HANDICAP').remove('GAME.XY.HANDICAP');
+
+        var ua = navigator.userAgent;
+        var iswin = /windows nt/i.test(ua);
+        /msie/i.test(ua) && jscookie.get('bv') == null && (function () {
+            var browser = Number(ua.match(/msie \d\.\d/i)[0].match(/\d\.\d/)[0]),
+                win = ua.match(/windows nt \d\.\d/i)[0].match(/\d\.\d/)[0],
+                ele = document.getElementById("WarnBox"), child = ele.children[0],
+                span = child.getElementsByTagName("span")[0],
+                a = child.getElementsByTagName("a")[0],
+                tip = '提示：';
+            if (browser < 7) {
+                tip += "您的浏览器版本太低了，为了您的上网安全以及得到更好的用户体验效果，建议您升级到IE8浏览器，或者下载安装其它现代浏览器";
+            } else if (browser == 7) {
+                tip += '建议您将浏览器升级到IE8，或者下载安装其它现代浏览器，使得页面运行更流畅';
+            } else if (browser == 8 && win == 6.1) {
+                tip += '您可以将浏览器升级到IE9及更高版本，更高版本的浏览器会有更好的体验效果';
+            } else {
+                return;
+            }
+            a.onclick = function () {
+                ele.parentNode.removeChild(ele);
+                jscookie.set("bv", 1, 365);
+            }
+            ele.style.display = "block";
+            span.innerText = tip;
+        })();
+    </script>
+</body>
+</html>
+INFO     2020-09-29 00:59:54 Lx_Ylpy_web_login.py line:[28:] =======================调用【获取游戏玩法】接口====================================
+INFO     2020-09-29 00:59:54 http_requests.py     line:[117:] 获取接口模板信息 ：  
+{
+    "is_encode": "娱乐平台获取六合彩玩法",
+    "url": "/WS/GetBallData",
+    "method": "GET",
+    "is_sing": "no",
+    "api_type": "WEB",
+    "headers": {},
+    "body": {}
+}
+INFO     2020-09-29 00:59:54 http_requests.py     line:[72:] 调用： 娱乐平台.获取六合彩玩法
+INFO     2020-09-29 00:59:54 http_requests.py     line:[198:] 请求url： http://6rtj0qib.qaz2032.com/WS/GetBallData
+INFO     2020-09-29 00:59:54 http_requests.py     line:[199:] 请求消息体： 
+{}
+INFO     2020-09-29 00:59:54 http_requests.py     line:[213:] 请求返回码 ： 200
+INFO     2020-09-29 00:59:54 http_requests.py     line:[214:] 请求返回体 ： 
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>重新登录</title>
+
+    <link href="http://staticweb.qaz2032.com//Scripts/Common/artDialog/skins/default.css" rel="stylesheet" />
+    <link href="http://staticweb.qaz2032.com//Content/skin4/frameui.css" rel="stylesheet" />
+    <link href="http://staticweb.qaz2032.com//Content/mapping/skin4-1/css/frameui.css?20190118" rel="stylesheet" />
+    <script src="http://staticweb.qaz2032.com//Scripts/Common/jquery-1.8.3.min.js"></script>
+    <script src="http://staticweb.qaz2032.com//Scripts/Common/artDialog/jquery.artDialog.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var type = "000";
+            var win = window;
+            var logout = '/Home/Logout';
+            var message = "";
+            switch (type) {
+                case "500": message = "您已在另一地方登录，请重新登录。"; break;
+                case "100": message = "您的账户或上级账户已被停用，请重新登录。"; break;
+                case "404": message = "您没有权限访问该页面。"; logout = '/Home/Main'; break;
+                case "400": message = "登录超时，请重新登录。"; break;
+                default: message = ""; break;
+            }
+            if (message != "") {
+                win.$.dialog({
+                    title: '提示',
+                    padding: '10px 5px',
+                    okValue: '确定',
+                    id: 'winform',
+                    lock: true,
+                    initialize: function () {
+                        this.content(message);
+                    },
+                    ok: function () { win.document.location.href = logout; }
+                });
+            } else {
+                win.document.location.href = logout;
+            }
+        });
+    </script>
+</head>
+<body class="body">
+</body>
+</html>
+
+INFO     2020-09-29 01:17:15 Lx_Ylpy_web_login.py line:[16:] =======================调用【用户登录】接口====================================
+INFO     2020-09-29 01:17:15 http_requests.py     line:[117:] 获取接口模板信息 ：  
+{
+    "is_encode": "娱乐平台前台登录",
+    "url": "/Login",
+    "method": "POST",
+    "is_sing": "no",
+    "api_type": "WEB",
+    "headers": {
+        "ASP.NET_SessionId": "453kmaiyd0flctslrmyoan0d"
+    },
+    "body": {
+        "username": "huiy07",
+        "password": "f09caad93c556216048595de602044b0",
+        "validateCode": 9999,
+        "sid": "453kmaiyd0flctslrmyoan0d"
+    }
+}
+INFO     2020-09-29 01:17:15 http_requests.py     line:[72:] 调用： 娱乐平台.前台登录
+INFO     2020-09-29 01:17:15 http_requests.py     line:[198:] 请求url： http://6rtj0qib.qaz2032.com/Login
+INFO     2020-09-29 01:17:15 http_requests.py     line:[199:] 请求消息体： 
+{
+    "username": "huiy07",
+    "password": "f09caad93c556216048595de602044b0",
+    "validateCode": "9999",
+    "sid": "453kmaiyd0flctslrmyoan0d"
+}
+INFO     2020-09-29 01:17:16 http_requests.py     line:[213:] 请求返回码 ： 200
+INFO     2020-09-29 01:17:16 http_requests.py     line:[214:] 请求返回体 ： 
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>登录</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+    <script src="http://staticweb.qaz2032.com//Scripts/Common/jquery-1.8.3.min.js"></script>
+    <script src="http://staticweb.qaz2032.com//Scripts/Common/knockout-3.2.0.js"></script>
+    <script src="http://staticweb.qaz2032.com//Scripts/Common/jquery.md5.js"></script>
+    <link href="http://staticweb.qaz2032.com//Content/mapping/skin4-1/css/login.css?_=20160829" rel="stylesheet" />
+    <script type="text/javascript">
+        var base = new Date().getTime();
+        window.loginspeed = function (e) {
+            var used = new Date() - base;
+            $(e).next().html((used > 3000 ? '超时' : used + 'ms'));
+        }
+    </script>
+</head>
+<body>
+    <div class="con_login">
+        <div class="head">
+        </div>
+        <div class="login_wrap">
+                <div class="line-wrap">
+                    <div class="w-head">会员线路选择<label style="color:yellow; font-size:12px; margin-left:10px;">备注：黄色代表您当前所在的线路</label></div>
+                    <div class="line-list">
+                        <ul>
+                                <li>
+                                    <i>1</i>
+                                    <span>
+                                        <a href="http://6rtj0qib.qaz2032.com/" target="_parent" style="color:yellow; cursor:pointer;">
+                                            线路1
+                                            <img src="http://6rtj0qib.qaz2032.com/speed.png?265427046" style="cursor:pointer; display: none;" onload="loginspeed(this)" />
+                                            <label>测速中...</label>
+                                        </a>
+                                    </span>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="login_form">
+                <div class="w-head">用户登录</div>
+                <form id="form1" action="/Login" method="post" data-bind="submit:subform" autocomplete="off">
+                    <div class="f_left">
+                        <div class="lg_tips" data-bind="text:tip"></div>
+                        <p>
+                            <span tag="tip">用户名</span><input type="text" tag="input" data-bind="textInput:uname" tabindex="1" />
+                            <input type="text" name="username" class="hide" data-bind="textInput:uname" /><i class="username"></i>
+                        </p>
+                        <p>
+                            <span tag="tip">密  码</span><input type="password" data-bind="textInput:pwd" tag="input" tabindex="2" />
+                            <input type="password" name="password" data-bind="textInput:pwd" autocomplete="off" class="hide" /><i class="password"></i>
+                        </p>
+                        <p>
+                            <span tag="tip">验证码</span><input type="text" tag="input" name="validateCode" data-bind="textInput:verify" class="code_txt" autocomplete="off" tabindex="3" /><span class="code"><img src="" alt="验证码" title="点击切换验证码" data-bind="click:changeVerify,attr:{src:url}" /></span>
+                            <input type="submit" class="login_btn" value="" tabindex="4" />
+                        </p>
+                    </div>
+                    <input type="hidden" name="sid" value="453kmaiyd0flctslrmyoan0d" />
+                </form>
+
+                <div class="browser-list">
+                    推荐使用浏览器<a href="http://rj.baidu.com/soft/detail/14744.html?ald" target="_blank"><i></i>Chrome</a><a href="http://rj.baidu.com/soft/detail/11843.html" target="_blank"><i class="f-icon"></i>Firefix</a>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <div style="position:absolute;top:0;left:0;width:100%;display:none;" id="WarnBox">
+        <div style="margin:0 auto;padding:5px 10px;width:40%;border:1px #DAB69E solid;background:#FAF6F2;color:#c15323;text-align:left;line-height:1.4;font-family:'宋体';">
+            <span></span><a href="javascript:;" class="not-again">不再提示</a>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $("[tag=input]").on({
+                focus: function () {
+                    $(this).prev().hide();
+                },
+                blur: function () {
+                    $(this).val() === "" && $(this).prev().show();
+                }
+            });
+
+            var tipText = $("form").find("[tag=tip]").on("click", function () {
+                $(this).hide().next().focus();
+            });
+
+            var vm = {
+                uname: ko.observable("huiy07"),
+                pwd: ko.observable(''),
+                verify: ko.observable(''),
+                isFocus1: ko.observable(false),
+                isFocus2: ko.observable(false),
+                isFocus3: ko.observable(false),
+                tip: ko.observable("验证码已过期，请重新输入"),
+                subform: function () {
+                    if (this.uname().length === 0) {
+                        this.tip("请输入用户名");
+                        return false;
+                    }
+                    if (this.pwd().length === 0) {
+                        this.tip("请输入密码");
+                        return false;
+                    }
+                    if (this.verify().length === 0) {
+                        this.tip("请输入验证码");
+                        return false;
+                    }
+                    var pw = $.md5(this.pwd());
+                    this.pwd($.md5(this.verify() + pw));
+                    return true;
+                },
+                changeVerify: function () {
+                    this.url('/Home/ValidateCode?t=' + (new Date() - 0))
+                },
+                url: ko.observable('/Home/ValidateCode?t=' + (new Date() - 0))
+            }
+            ko.applyBindings(vm);
+            if (vm.uname().length > 0) {
+                tipText.first().hide();
+            }
+        });
+
+        var jscookie = {
+            get: function (name) {
+                var name = name.replace('.', '\\.')
+                var reg = new RegExp(" " + name + "=[\\S^;]*", "g");
+                var arr = (" " + document.cookie + ";").match(reg);
+                if (arr === null) return null;
+                return decodeURIComponent(arr[0].replace(/^.*=/, '').slice(0, -1));
+            },
+            /// name:Cookie名称,  value:Cookie值,  expires:过期时间
+            set: function (name, value, expires, path, domain, secure) {
+                var today = new Date();
+                today.setTime(today.getTime());
+                if (expires) {
+                    expires = expires * 1000 * 60 * 60 * 24;
+                }
+                var expires_date = new Date(today.getTime() + (expires));
+                document.cookie = name + "=" + escape(value) + ((expires) ? ";expires=" +
+                    expires_date.toGMTString() : "") + ((path) ? ";path=" +
+                    path : "") + ((domain) ? ";domain=" + domain : "") +
+                    ((secure) ? ";secure" : "");
+            },
+            remove: function (name, path, domain) {
+                if (this.get(name)) {
+                    document.cookie = name + "=" + ((path) ? ";path=" + path : "") +
+                        ((domain) ? ";domain=" + domain : "") +
+                        ";expires=Thu,01-Jan-1970 00:00:01 GMT";
+                }
+                return this;
+            }
+        };
+        jscookie.remove('GAME.HANDICAP').remove('GAME.XY.HANDICAP');
+
+        var ua = navigator.userAgent;
+        var iswin = /windows nt/i.test(ua);
+        /msie/i.test(ua) && jscookie.get('bv') == null && (function () {
+            var browser = Number(ua.match(/msie \d\.\d/i)[0].match(/\d\.\d/)[0]),
+                win = ua.match(/windows nt \d\.\d/i)[0].match(/\d\.\d/)[0],
+                ele = document.getElementById("WarnBox"), child = ele.children[0],
+                span = child.getElementsByTagName("span")[0],
+                a = child.getElementsByTagName("a")[0],
+                tip = '提示：';
+            if (browser < 7) {
+                tip += "您的浏览器版本太低了，为了您的上网安全以及得到更好的用户体验效果，建议您升级到IE8浏览器，或者下载安装其它现代浏览器";
+            } else if (browser == 7) {
+                tip += '建议您将浏览器升级到IE8，或者下载安装其它现代浏览器，使得页面运行更流畅';
+            } else if (browser == 8 && win == 6.1) {
+                tip += '您可以将浏览器升级到IE9及更高版本，更高版本的浏览器会有更好的体验效果';
+            } else {
+                return;
+            }
+            a.onclick = function () {
+                ele.parentNode.removeChild(ele);
+                jscookie.set("bv", 1, 365);
+            }
+            ele.style.display = "block";
+            span.innerText = tip;
+        })();
+    </script>
+</body>
+</html>
+INFO     2020-09-29 01:17:16 Lx_Ylpy_web_login.py line:[28:] =======================调用【获取游戏玩法】接口====================================
+INFO     2020-09-29 01:17:16 http_requests.py     line:[117:] 获取接口模板信息 ：  
+{
+    "is_encode": "娱乐平台获取六合彩玩法",
+    "url": "/WS/GetBallData",
+    "method": "GET",
+    "is_sing": "no",
+    "api_type": "WEB",
+    "headers": {},
+    "body": {}
+}
+INFO     2020-09-29 01:17:16 http_requests.py     line:[72:] 调用： 娱乐平台.获取六合彩玩法
+INFO     2020-09-29 01:17:16 http_requests.py     line:[198:] 请求url： http://6rtj0qib.qaz2032.com/WS/GetBallData
+INFO     2020-09-29 01:17:16 http_requests.py     line:[199:] 请求消息体： 
+{}
+INFO     2020-09-29 01:17:16 http_requests.py     line:[213:] 请求返回码 ： 200
+INFO     2020-09-29 01:17:16 http_requests.py     line:[214:] 请求返回体 ： 
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>重新登录</title>
+
+    <link href="http://staticweb.qaz2032.com//Scripts/Common/artDialog/skins/default.css" rel="stylesheet" />
+    <link href="http://staticweb.qaz2032.com//Content/skin4/frameui.css" rel="stylesheet" />
+    <link href="http://staticweb.qaz2032.com//Content/mapping/skin4-1/css/frameui.css?20190118" rel="stylesheet" />
+    <script src="http://staticweb.qaz2032.com//Scripts/Common/jquery-1.8.3.min.js"></script>
+    <script src="http://staticweb.qaz2032.com//Scripts/Common/artDialog/jquery.artDialog.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var type = "000";
+            var win = window;
+            var logout = '/Home/Logout';
+            var message = "";
+            switch (type) {
+                case "500": message = "您已在另一地方登录，请重新登录。"; break;
+                case "100": message = "您的账户或上级账户已被停用，请重新登录。"; break;
+                case "404": message = "您没有权限访问该页面。"; logout = '/Home/Main'; break;
+                case "400": message = "登录超时，请重新登录。"; break;
+                default: message = ""; break;
+            }
+            if (message != "") {
+                win.$.dialog({
+                    title: '提示',
+                    padding: '10px 5px',
+                    okValue: '确定',
+                    id: 'winform',
+                    lock: true,
+                    initialize: function () {
+                        this.content(message);
+                    },
+                    ok: function () { win.document.location.href = logout; }
+                });
+            } else {
+                win.document.location.href = logout;
+            }
+        });
+    </script>
+</head>
+<body class="body">
+</body>
+</html>
+

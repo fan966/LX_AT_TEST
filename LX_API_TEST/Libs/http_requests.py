@@ -36,6 +36,7 @@ def http_api_requests(interface_name,return_result = True,server_host = Config()
     if 'Headers' in replace_params:
         headers.update(replace_params['Headers'])
         cookies.update(replace_params['Headers'])
+    #print(replace_params)
 
     # 循环替换接口模板中的值
     for key in replace_params['NewVerifParmsData'].keys():

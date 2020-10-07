@@ -68,7 +68,7 @@ class Config(object):
 
 
 
-        #print(self.game_per_info)
+        #print(self.case_data_file_path)
 
     def get_ini_value(self,sections,options):
         '''

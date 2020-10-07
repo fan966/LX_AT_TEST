@@ -1,5 +1,8 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import unittest
 from Libs.data_util import write_result_data_to_excel
 from Libs.log_util import set_log
@@ -8,6 +11,7 @@ from ddt import ddt,data
 from Verify.User.UserVerify import *
 from Libs.Random_util import RandomUtil
 from Libs.CheckRresult_Util import *
+
 @ddt
 class Ag_Api_User_AddAccount(unittest.TestCase):
     r = RandomUtil()
