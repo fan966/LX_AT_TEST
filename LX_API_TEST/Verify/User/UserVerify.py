@@ -82,5 +82,5 @@ if __name__ == '__main__':
     # data = from_db_get_user_ID('ttt11')
     # print(data[0]['id'])
     set_log()
-    temp = ag_login_api('qazwsx2','aaaa2222')
+    temp = login_api('ttt1','aaaa2222')
     print(temp)

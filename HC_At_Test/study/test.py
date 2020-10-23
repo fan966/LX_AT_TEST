@@ -44,9 +44,10 @@ import os
 #         el[k].send_keys(value[k])
 #     # 判断总行数是否>item
 #     # 大于则点击新增
-path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-print(path + '\\tets')
-
+# path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# print(path + '\\tets')
+while 1:
+    print('test')
 
 
 

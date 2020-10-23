@@ -21,7 +21,7 @@ class BetGameTime(BaseAction):
                 url = self.driver.current_url  # 获取当前窗口url
                 #print(url)
                 dict_key = re_findall('Index/[0-9].*', url)
-                #print(dict_key)
+                #print(dict_key) Index/93
                 if len(dict_key) > 0:
                     dict_key = re_sub('#[0-9].*', '', self.driver.current_url)
                     #print(dict_key)

@@ -12,6 +12,7 @@ from Verify.User.UserVerify import *
 from Libs.Random_util import RandomUtil
 from Libs.CheckRresult_Util import *
 
+
 @ddt
 class Ag_Api_User_AddAccount(unittest.TestCase):
     r = RandomUtil()

@@ -20,6 +20,7 @@ class Api_User_UpdateLoginPwd_01(unittest.TestCase):
     # 获取测试数据
     datas = get_case_from_excel(Config().case_data_file_path,['User'],run_rules_dic,'User')
 
+
     def setUp(self):
         logging.info('已经启动脚本文件： {}.py'.format(os.path.basename(__file__)))
         self.account = Config().get_ini_value('modify_loginpwd','mod_account')
@@ -53,4 +54,5 @@ class Api_User_UpdateLoginPwd_01(unittest.TestCase):
         pass
 
 if __name__ == '__main__':
+    set_log()
     unittest.main()
